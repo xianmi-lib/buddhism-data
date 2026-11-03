@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.xianmi.co/buddhism/data/schema-core-v0.1.json",
+  "title": "Buddhist Atlas Shared Core v0.1",
+  "description": "共享内核：两域（Atlas 文献传播 / History 传统历史）统一的身份层（Person/Place）与来源层（Source）。领域语义（Work/Tradition/事件词表等）由各自 Profile Schema 定义并经 $ref 复用本文件的定义。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "dataset_status", "persons", "places", "sources"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "dataset_status": {"enum": ["core_draft"]},
+    "persons": {"type": "array", "items": {"$ref": "#/$defs/person"}},
+    "places": {"type": "array", "items": {"$ref": "#/$defs/place"}},
+    "sources": {"type": "array", "items": {"$ref": "#/$defs/source"}}
+  },
+  "$defs": {
+    "nullableString": {"type": ["string", "null"]},
+    "label": {
+      "type": "object", "additionalProperties": false,
+      "required": ["text", "lang", "script", "kind"],
+      "properties": {
+        "text": {"type": "string", "minLength": 1},
+        "lang": {"type": "string", "minLength": 2},
+        "script": {"type": "string", "minLength": 2},
+        "kind": {"enum": ["preferred", "alternate", "original", "transliteration"]}
+      }
+    },
+    "labels": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/label"}},
+    "date": {
+      "type": "object", "additionalProperties": false,
+      "required": ["start_year", "end_year", "start_month", "start_day", "end_month", "end_day", "ongoing", "display", "original", "precision", "basis"],
+      "properties": {
+        "start_year": {"type": ["integer", "null"]},
+        "end_year": {"type": ["integer", "null"]},
+        "start_month": {"type": ["integer", "null"], "minimum": 1, "maximum": 12},
+        "end_month": {"type": ["integer", "null"], "minimum": 1, "maximum": 12},
+        "start_day": {"type": ["integer", "null"], "minimum": 1, "maximum": 31},
+        "end_day": {"type": ["integer", "null"], "minimum": 1, "maximum": 31},
+        "ongoing": {"type": "boolean"},
+        "display": {"type": "string", "minLength": 1},
+        "original": {"type": ["string", "null"]},
+        "precision": {"enum": ["day", "month", "year", "year_range", "century", "estimated_range", "broad_lifetime_range", "unknown"]},
+        "basis": {"type": "string", "minLength": 1}
+      }
+    },
+    "dateOrNull": {"anyOf": [{"$ref": "#/$defs/date"}, {"type": "null"}]},
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "registry_id", "citation", "url", "identifiers", "locator", "accessed_on"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^S-[A-Z0-9][A-Z0-9-]*$"},
+        "registry_id": {"type": "string", "pattern": "^SRC-[A-Z0-9-]+$"},
+        "citation": {"type": "string", "minLength": 1},
+        "url": {"anyOf": [{"type": "string", "format": "uri", "pattern": "^https?://"}, {"type": "null"}]},
+        "identifiers": {"type": "object", "additionalProperties": {"type": "string"}},
+        "locator": {"type": "string", "minLength": 1},
+        "accessed_on": {"type": "string", "format": "date"}
+      }
+    },
+    "person": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "labels", "life_date", "catalog_key", "content_refs", "assertion_ids", "notes"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^P-[A-Z0-9][A-Z0-9-]*$"},
+        "labels": {"$ref": "#/$defs/labels"},
+        "life_date": {"$ref": "#/$defs/dateOrNull"},
+        "catalog_key": {"type": "string", "minLength": 1},
+        "content_refs": {"type": "array", "items": {"type": "string"}},
+        "external_ids": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "assertion_ids": {"type": "array", "items": {"type": "string"}},
+        "atlas_links": {"$ref": "#/$defs/atlasLinks"},
+        "notes": {"type": "string"},
+        "deprecated": {
+          "type": "object", "additionalProperties": false,
+          "required": ["reason", "ruling_ref", "deprecated_in"],
+          "properties": {
+            "reason": {"enum": ["misextracted_residue", "absorbed", "orphan_stub"]},
+            "absorbed_by": {"type": "string", "pattern": "^P-[A-Z0-9][A-Z0-9-]*$"},
+            "ruling_ref": {"type": "string", "minLength": 1},
+            "deprecated_in": {"type": "string", "minLength": 1}
+          }
+        }
+      }
+    },
+    "place": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "labels", "modern_name", "latitude", "longitude", "coordinate_precision", "external_ids", "assertion_ids"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^PL-[A-Z0-9][A-Z0-9-]*$"},
+        "labels": {"$ref": "#/$defs/labels"},
+        "modern_name": {"$ref": "#/$defs/nullableString"},
+        "latitude": {"type": ["number", "null"], "minimum": -90, "maximum": 90},
+        "longitude": {"type": ["number", "null"], "minimum": -180, "maximum": 180},
+        "coordinate_precision": {"type": ["string", "null"]},
+        "external_ids": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "assertion_ids": {"type": "array", "items": {"type": "string"}},
+        "atlas_links": {"$ref": "#/$defs/atlasLinks"}
+      }
+    },
+    "atlasLink": {
+      "type": "object", "additionalProperties": false,
+      "required": ["ref", "role"],
+      "properties": {
+        "ref": {"type": "string", "pattern": "^atlas:[A-Za-z0-9]+(?:-[A-Za-z0-9]+)*$"},
+        "role": {"enum": ["same_as", "related_work", "related_event", "related_person", "related_text_version", "related_witness", "related_assertion", "related_place"]}
+      }
+    },
+    "atlasLinks": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/atlasLink"}},
+    "assertionTarget": {
+      "type": "object", "additionalProperties": false,
+      "required": ["subject_ref", "aspects", "proposed_values"],
+      "properties": {
+        "subject_ref": {"type": "string"},
+        "aspects": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+        "proposed_values": {"type": "object"}
+      }
+    },
+    "assertion": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "claim", "evidence_kind", "source_ids", "display_status", "targets", "notes"],
+      "properties": {
+        "id": {"type": "string"},
+        "claim": {"type": "string", "minLength": 1},
+        "evidence_kind": {"enum": ["contemporary_record", "traditional_account", "catalogue_metadata", "physical_evidence", "modern_scholarship", "editorial_inference"]},
+        "source_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "pattern": "^S-[A-Z0-9][A-Z0-9-]*$"}},
+        "display_status": {"enum": ["primary", "alternate", "disputed", "note"]},
+        "targets": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/assertionTarget"}},
+        "notes": {"type": "string"}
+      }
+    },
+    "eventBase": {
+      "description": "两域事件的公共部分；各 Profile 经 allOf 组合并补充领域字段与事件词表。",
+      "type": "object",
+      "required": ["id", "title", "event_types", "date", "places", "participants", "assertion_ids", "review_status"],
+      "properties": {
+        "id": {"type": "string"},
+        "title": {"type": "string", "minLength": 1},
+        "event_types": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+        "date": {"$ref": "#/$defs/dateOrNull"},
+        "places": {"type": "array"},
+        "participants": {"type": "array"},
+        "assertion_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+        "review_status": {"enum": ["draft", "source_checked", "scholar_reviewed", "published"]}
+      }
+    }
+  }
+}

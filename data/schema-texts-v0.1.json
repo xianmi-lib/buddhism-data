@@ -1,0 +1,406 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.xianmi.co/buddhism/data/schema-texts-v0.1.json",
+  "title": "Buddhist Texts Profile v0.1",
+  "description": "文献域 Profile：统一承载四藏经目（大正藏、卍续藏、巴利尼柯耶、藏传甘珠尔/丹珠尔）书目级 Work 实体、跨藏平行对照类型化链接、以及佛教术语（Terms）集合。不含 Atlas Profile 的 68 条策划型作品分析实体。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "dataset_status",
+    "works",
+    "parallel_links",
+    "terms"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "0.1"
+    },
+    "dataset_status": {
+      "enum": [
+        "texts_seed",
+        "texts_draft",
+        "texts_reviewed"
+      ]
+    },
+    "works": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/work"
+      }
+    },
+    "parallel_links": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/parallelLink"
+      }
+    },
+    "terms": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/term"
+      }
+    },
+    "assertions": {
+      "description": "可选正式层断言池；配合记录级 assertion_ids 或字段级覆盖使用",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/assertion"
+      }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "nullableString": {
+      "type": ["string", "null"]
+    },
+    "labels": {
+      "$ref": "https://www.xianmi.co/buddhism/data/schema-core-v0.1.json#/$defs/labels"
+    },
+    "label": {
+      "$ref": "https://www.xianmi.co/buddhism/data/schema-core-v0.1.json#/$defs/label"
+    },
+    "dateOrNull": {
+      "$ref": "https://www.xianmi.co/buddhism/data/schema-core-v0.1.json#/$defs/dateOrNull"
+    },
+    "assertion": {
+      "$ref": "https://www.xianmi.co/buddhism/data/schema-core-v0.1.json#/$defs/assertion"
+    },
+    "sourceId": {
+      "type": "string",
+      "pattern": "^S-[A-Z0-9][A-Z0-9-]*$"
+    },
+    "sourceEvidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_ids", "evidence_kind"],
+      "properties": {
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/sourceId"
+          }
+        },
+        "evidence_kind": {
+          "enum": [
+            "catalogue_metadata",
+            "contemporary_record",
+            "traditional_account",
+            "physical_evidence",
+            "modern_scholarship",
+            "editorial_inference"
+          ]
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "canonKind": {
+      "enum": [
+        "taisho",
+        "xuzang",
+        "pali_tipitaka",
+        "tibetan_kangyur",
+        "tibetan_tengyur"
+      ]
+    },
+    "workIdentity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["canon"],
+      "properties": {
+        "canon": {
+          "$ref": "#/$defs/canonKind"
+        },
+        "taisho_no": {
+          "type": ["integer", "null"]
+        },
+        "part": {
+          "description": "一号多件声明（如 T0150A/T0150B 的 'A'/'B'，或 T0128a/b 的 'a'/'b'）。taisho_no 不为空且存在同号多件时必填",
+          "$ref": "#/$defs/nullableString"
+        },
+        "is_multi_part": {
+          "description": "显式标识该作品是否属于一号多件情形之一",
+          "type": "boolean"
+        },
+        "cbeta_id": {
+          "description": "汉文大正藏或续藏的原生典籍编号，如 T01n0001、X01n0001",
+          "$ref": "#/$defs/nullableString"
+        },
+        "sc_uid": {
+          "description": "SuttaCentral 原生段篇标识，如 dn1、an1.1-10",
+          "$ref": "#/$defs/nullableString"
+        },
+        "toh_no": {
+          "description": "德格版东北帝国大学编目号，如 1、8、1108、3871",
+          "$ref": "#/$defs/nullableString"
+        },
+        "bdrc_work_id": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "bdrc_part_id": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "creatorStructured": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "role"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "person_ref": {
+          "description": "已通过 I0 身份核对流水线时，引用 Core Person ID（P-...）",
+          "type": ["string", "null"]
+        },
+        "role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "dynasty": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "note": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "work": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "identity",
+        "titles",
+        "creators",
+        "date",
+        "extent",
+        "classification",
+        "extant",
+        "provenance"
+      ],
+      "properties": {
+        "id": {
+          "description": "主键，采用来源原生 ID（cbeta_id / sc_uid / toh_no 前缀），如 T01n0001、SC:dn1、TOH:1",
+          "type": "string",
+          "minLength": 1
+        },
+        "identity": {
+          "$ref": "#/$defs/workIdentity"
+        },
+        "titles": {
+          "$ref": "#/$defs/labels"
+        },
+        "creators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/creatorStructured"
+          }
+        },
+        "creator_raw": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "date": {
+          "$ref": "#/$defs/dateOrNull"
+        },
+        "extent": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["display"],
+          "properties": {
+            "display": {
+              "type": "string"
+            },
+            "juan_count": {
+              "type": ["integer", "null"]
+            },
+            "volume_no": {
+              "type": ["integer", "null"]
+            },
+            "page_start": {
+              "$ref": "#/$defs/nullableString"
+            },
+            "page_end": {
+              "$ref": "#/$defs/nullableString"
+            }
+          }
+        },
+        "classification": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["category"],
+          "properties": {
+            "category": {
+              "type": "string"
+            },
+            "basket": {
+              "$ref": "#/$defs/nullableString"
+            },
+            "section": {
+              "$ref": "#/$defs/nullableString"
+            },
+            "nikaya": {
+              "$ref": "#/$defs/nullableString"
+            },
+            "grouping_chain": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "extant": {
+          "type": "boolean"
+        },
+        "extant_note": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "provenance": {
+          "$ref": "#/$defs/sourceEvidence"
+        },
+        "assertion_ids": {
+          "description": "关联正式层断言池的 ID 列表",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "parallelLink": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "from_work_ref",
+        "to_work_ref",
+        "link_kind",
+        "provenance"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^PLK-[A-Za-z0-9_.-]+$"
+        },
+        "from_work_ref": {
+          "description": "源作品 ID",
+          "type": "string",
+          "minLength": 1
+        },
+        "to_work_ref": {
+          "description": "目标作品 ID",
+          "type": "string",
+          "minLength": 1
+        },
+        "link_kind": {
+          "description": "类型化平行对照关系，严格区分完整对译、文意相似平行与局部节选",
+          "enum": [
+            "full_translation",
+            "resembling_parallel",
+            "section_parallel"
+          ]
+        },
+        "from_locator": {
+          "description": "源作品细分定位（如卷、页码、段落锚点）",
+          "$ref": "#/$defs/nullableString"
+        },
+        "to_locator": {
+          "description": "目标作品细分定位（如 t1442.13、t0656b19-#t0661a09）",
+          "$ref": "#/$defs/nullableString"
+        },
+        "bidirectional": {
+          "description": "是否已对称生成反向链接",
+          "type": "boolean"
+        },
+        "provenance": {
+          "$ref": "#/$defs/sourceEvidence"
+        },
+        "notes": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "term": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "term_zh",
+        "term_zh_alt",
+        "languages",
+        "gloss_zh",
+        "first_seen_in",
+        "provenance"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^TERM-[A-Za-z0-9_.-]+$"
+        },
+        "term_zh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "term_zh_alt": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "languages": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "sanskrit_iast",
+            "pali",
+            "tibetan_wylie"
+          ],
+          "properties": {
+            "sanskrit_iast": {
+              "$ref": "#/$defs/nullableString"
+            },
+            "pali": {
+              "$ref": "#/$defs/nullableString"
+            },
+            "tibetan_wylie": {
+              "$ref": "#/$defs/nullableString"
+            }
+          }
+        },
+        "gloss_zh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "first_seen_in": {
+          "description": "首见经论（集成期接经目 Work ID，如 T08n0235；未知为 null）",
+          "$ref": "#/$defs/nullableString"
+        },
+        "provenance": {
+          "$ref": "#/$defs/sourceEvidence"
+        },
+        "assertion_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2471 @@
+{
+  "schema_version": "0.1",
+  "dataset_status": "research_sample",
+  "works": [
+    {
+      "id": "W-DHARMACAKRA",
+      "name_zh": "转法轮经",
+      "work_kind": "discourse",
+      "parent_work_id": null,
+      "catalog_key": "work:W-DHARMACAKRA",
+      "content_refs": [],
+      "notes": "样本仅处理传统说法事件，不声称说法时已经成文。"
+    },
+    {
+      "id": "W-PALI-CANON",
+      "name_zh": "巴利三藏",
+      "work_kind": "collection",
+      "parent_work_id": null,
+      "catalog_key": "work:W-PALI-CANON",
+      "content_refs": []
+    },
+    {
+      "id": "W-PALI-COMMENT",
+      "name_zh": "巴利注释文献",
+      "work_kind": "collection",
+      "parent_work_id": null,
+      "catalog_key": "work:W-PALI-COMMENT",
+      "content_refs": [],
+      "notes": "集合级记录；具体注释书以后分别建作品。"
+    },
+    {
+      "id": "W-DHP",
+      "name_zh": "法句经",
+      "work_kind": "collection",
+      "parent_work_id": null,
+      "catalog_key": "work:W-DHP",
+      "content_refs": [],
+      "notes": "不同语言和传统版本不能因同名而直接视为逐字相同。"
+    },
+    {
+      "id": "W-PRATIMOKSA",
+      "name_zh": "波罗提木叉戒本",
+      "work_kind": "discipline_text",
+      "parent_work_id": null,
+      "catalog_key": "work:W-PRATIMOKSA",
+      "content_refs": []
+    },
+    {
+      "id": "W-DIAMOND",
+      "name_zh": "金刚般若波罗蜜经",
+      "work_kind": "discourse",
+      "parent_work_id": null,
+      "catalog_key": "work:W-DIAMOND",
+      "content_refs": []
+    },
+    {
+      "id": "W-LOTUS",
+      "name_zh": "妙法莲华经",
+      "work_kind": "discourse",
+      "parent_work_id": null,
+      "catalog_key": "work:W-LOTUS",
+      "content_refs": []
+    },
+    {
+      "id": "W-AF",
+      "name_zh": "大乘起信论",
+      "work_kind": "treatise",
+      "parent_work_id": null,
+      "catalog_key": "work:W-AF",
+      "content_refs": []
+    },
+    {
+      "id": "W-XZ-CORPUS",
+      "name_zh": "玄奘645年携回佛典总账",
+      "work_kind": "collection",
+      "parent_work_id": null,
+      "catalog_key": "work:W-XZ-CORPUS",
+      "content_refs": [],
+      "notes": "史料总账的集合级代理记录，不是单一作品，也不等于后来译出书目。"
+    },
+    {
+      "id": "W-KAIBAO",
+      "name_zh": "开宝藏",
+      "work_kind": "canon",
+      "parent_work_id": null,
+      "catalog_key": "work:W-KAIBAO",
+      "content_refs": []
+    }
+  ],
+  "text_versions": [
+    {
+      "id": "TV-SN56-11",
+      "work_id": "W-DHARMACAKRA",
+      "language": "pi",
+      "script": "Latn",
+      "canonical_ids": [
+        "SuttaCentral:sn56.11"
+      ],
+      "attribution_display": null,
+      "catalog_key": "version:TV-SN56-11",
+      "content_refs": []
+    },
+    {
+      "id": "TV-PALI-CANON",
+      "work_id": "W-PALI-CANON",
+      "language": "pi",
+      "script": "Zxxx",
+      "canonical_ids": [],
+      "attribution_display": null,
+      "catalog_key": "version:TV-PALI-CANON",
+      "content_refs": []
+    },
+    {
+      "id": "TV-PALI-COMMENT",
+      "work_id": "W-PALI-COMMENT",
+      "language": "pi",
+      "script": "Zxxx",
+      "canonical_ids": [],
+      "attribution_display": null,
+      "catalog_key": "version:TV-PALI-COMMENT",
+      "content_refs": []
+    },
+    {
+      "id": "TV-DHP-BL16-25",
+      "work_id": "W-DHP",
+      "language": "pgd",
+      "script": "Khar",
+      "canonical_ids": [
+        "Gandhari.org:CKM18",
+        "British Library:Kharosthi Fragments 16+25"
+      ],
+      "attribution_display": null,
+      "catalog_key": "version:TV-DHP-BL16-25",
+      "content_refs": [],
+      "notes": "BL 16+25还含其他文本；此版本记录只指其中的London Dharmapada。"
+    },
+    {
+      "id": "TV-DHP-KHOTAN",
+      "work_id": "W-DHP",
+      "language": "pgd",
+      "script": "Khar",
+      "canonical_ids": [
+        "Gandhari.org:CKM77",
+        "St Petersburg:SI-3328/2"
+      ],
+      "attribution_display": null,
+      "catalog_key": "version:TV-DHP-KHOTAN",
+      "content_refs": []
+    },
+    {
+      "id": "TV-S797-PRATIMOKSA",
+      "work_id": "W-PRATIMOKSA",
+      "language": "lzh",
+      "script": "Hans",
+      "canonical_ids": [
+        "British Library:Or.8210/S.797"
+      ],
+      "attribution_display": "说一切有部僧团使用的波罗提木叉戒本；对象页称Punyatrata译",
+      "catalog_key": "version:TV-S797-PRATIMOKSA",
+      "content_refs": []
+    },
+    {
+      "id": "TV-DIAMOND-KJ",
+      "work_id": "W-DIAMOND",
+      "language": "lzh",
+      "script": "Hans",
+      "canonical_ids": [
+        "Taisho:T235"
+      ],
+      "attribution_display": "鸠摩罗什译",
+      "catalog_key": "version:TV-DIAMOND-KJ",
+      "content_refs": []
+    },
+    {
+      "id": "TV-LOTUS-KJ",
+      "work_id": "W-LOTUS",
+      "language": "lzh",
+      "script": "Hans",
+      "canonical_ids": [
+        "Taisho:T262"
+      ],
+      "attribution_display": "鸠摩罗什译",
+      "catalog_key": "version:TV-LOTUS-KJ",
+      "content_refs": []
+    },
+    {
+      "id": "TV-AF-T1666",
+      "work_id": "W-AF",
+      "language": "lzh",
+      "script": "Hans",
+      "canonical_ids": [
+        "Taisho:T1666"
+      ],
+      "attribution_display": "马鸣菩萨造，梁真谛译（传统题署，归属有争议）",
+      "catalog_key": "version:TV-AF-T1666",
+      "content_refs": []
+    },
+    {
+      "id": "TV-KAIBAO-ZH",
+      "work_id": "W-KAIBAO",
+      "language": "lzh",
+      "script": "Hans",
+      "canonical_ids": [],
+      "attribution_display": null,
+      "catalog_key": "version:TV-KAIBAO-ZH",
+      "content_refs": []
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "MS-BL16-25",
+      "name": "British Library犍陀罗语桦树皮写本16+25",
+      "witness_kind": "manuscript_scrolls",
+      "text_version_ids": [
+        "TV-DHP-BL16-25"
+      ],
+      "material": "birch bark",
+      "repository_parts": [
+        {
+          "repository": "British Library, London",
+          "shelfmark": "Kharoṣṭhī Fragments 16 + 25; Gandhari.org CKM 18"
+        }
+      ],
+      "catalog_key": "witness:MS-BL16-25",
+      "content_refs": [],
+      "notes": "实物组合含《法句经》及其他文本，不能用单篇标题代替整个实物。"
+    },
+    {
+      "id": "MS-KHOTAN-DHP",
+      "name": "和田《法句经》犍陀罗语写本",
+      "witness_kind": "manuscript_split_parts",
+      "text_version_ids": [
+        "TV-DHP-KHOTAN"
+      ],
+      "material": "birch bark",
+      "repository_parts": [
+        {
+          "repository": "Bibliothèque nationale de France, Paris",
+          "shelfmark": null
+        },
+        {
+          "repository": "Saint Petersburg",
+          "shelfmark": "SI-3328/2"
+        }
+      ],
+      "catalog_key": "witness:MS-KHOTAN-DHP",
+      "content_refs": [],
+      "notes": "一个目录实体分藏两地；巴黎部分馆藏号尚未核实，保留null。"
+    },
+    {
+      "id": "MS-S797",
+      "name": "敦煌写本《波罗提木叉经》Or.8210/S.797",
+      "witness_kind": "manuscript_scroll",
+      "text_version_ids": [
+        "TV-S797-PRATIMOKSA"
+      ],
+      "material": "ink on paper, with wood",
+      "repository_parts": [
+        {
+          "repository": "British Library, London",
+          "shelfmark": "Or.8210/S.797"
+        }
+      ],
+      "catalog_key": "witness:MS-S797",
+      "content_refs": []
+    },
+    {
+      "id": "PRINT-P2",
+      "name": "868年雕版印刷《金刚经》Or.8210/P.2",
+      "witness_kind": "woodblock_printed_scroll",
+      "text_version_ids": [
+        "TV-DIAMOND-KJ"
+      ],
+      "material": "paper",
+      "repository_parts": [
+        {
+          "repository": "British Library, London",
+          "shelfmark": "Or.8210/P.2"
+        }
+      ],
+      "catalog_key": "witness:PRINT-P2",
+      "content_refs": []
+    }
+  ],
+  "assertions": [
+    {
+      "id": "A001",
+      "claim": "据《相应部》56.11传统叙事，佛陀在波罗奈近郊Isipatana鹿野苑初转法轮。",
+      "evidence_kind": "traditional_account",
+      "source_ids": [
+        "S-SN56-11",
+        "S-MET-BUDDHA"
+      ],
+      "display_status": "primary",
+      "targets": [
+        {
+          "subject_ref": "E001",
+          "aspects": [
+            "title",
+            "event_types",
+            "subject_refs",
+            "places",
+            "participants"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "P-BUDDHA",
+          "aspects": [
+            "name"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "PL-SARNATH",
+          "aspects": [
+            "name",
+            "modern_name"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "口头说法事件不等于当时成文或三藏结集。"
+    },
+    {
+      "id": "A002",
+      "claim": "编辑以Met所列最早传统出生年563 BCE至整体后移一百年后的最晚卒年383 BCE为检索包络。",
+      "evidence_kind": "editorial_inference",
+      "source_ids": [
+        "S-MET-BUDDHA"
+      ],
+      "display_status": "note",
+      "targets": [
+        {
+          "subject_ref": "E001",
+          "aspects": [
+            "date"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "这是编辑明确说明算法的宽区间，不是初转法轮的断代测量。"
+    },
+    {
+      "id": "A003",
+      "claim": "阿育王第13号石刻称其法胜影响远至锡兰。",
+      "evidence_kind": "contemporary_record",
+      "source_ids": [
+        "S-ASOKA-EDICT13"
+      ],
+      "display_status": "primary",
+      "targets": [
+        {
+          "subject_ref": "E002",
+          "aspects": [
+            "title",
+            "event_types",
+            "subject_refs",
+            "places",
+            "participants"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "P-ASHOKA",
+          "aspects": [
+            "name"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "PL-INDIA",
+          "aspects": [
+            "name",
+            "modern_name"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "PL-SRI-LANKA",
+          "aspects": [
+            "name",
+            "modern_name"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "石刻不提摩哂陀，也不直接叙述一次具体皈化事件。"
+    },
+    {
+      "id": "A004",
+      "claim": "传统记载阿育王遣摩哂陀等于约前251年赴锡兰传教。",
+      "evidence_kind": "traditional_account",
+      "source_ids": [
+        "S-BRIT-MAHENDRA"
+      ],
+      "display_status": "alternate",
+      "targets": [
+        {
+          "subject_ref": "E002",
+          "aspects": [
+            "places",
+            "participants"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "P-MAHINDA",
+          "aspects": [
+            "name"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "人物身份、使团经过及具体年份不得标作石刻直接证明。"
+    },
+    {
+      "id": "A005",
+      "claim": "《大史》33.100–101记载僧团将此前口传的三藏及注释写录成书。",
+      "evidence_kind": "traditional_account",
+      "source_ids": [
+        "S-MAHAVAMSA33"
+      ],
+      "display_status": "primary",
+      "targets": [
+        {
+          "subject_ref": "E003",
+          "aspects": [
+            "title",
+            "event_types",
+            "subject_refs",
+            "date",
+            "places"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "该段未写阿卢寺名；写定不等于所有作品此时才创作。"
+    },
+    {
+      "id": "A006",
+      "claim": "现代概述通常将巴利三藏首次斯里兰卡写定置于约前1世纪。",
+      "evidence_kind": "modern_scholarship",
+      "source_ids": [
+        "S-BRIT-PALI"
+      ],
+      "display_status": "note",
+      "targets": [
+        {
+          "subject_ref": "E003",
+          "aspects": [
+            "date",
+            "places"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "保留probably所表达的不确定性。"
+    },
+    {
+      "id": "A007",
+      "claim": "觉音约于5世纪在斯里兰卡阿努拉德普勒整理并将僧伽罗语注释译为巴利语。",
+      "evidence_kind": "modern_scholarship",
+      "source_ids": [
+        "S-BRIT-BUDDHAGHOSA"
+      ],
+      "display_status": "primary",
+      "targets": [
+        {
+          "subject_ref": "E004",
+          "aspects": [
+            "title",
+            "event_types",
+            "subject_refs",
+            "date",
+            "places",
+            "participants"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "P-BUDDHAGHOSA",
+          "aspects": [
+            "name"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "PL-ANURADHAPURA",
+          "aspects": [
+            "name",
+            "modern_name"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "不等于觉音创作巴利三藏或全部现存注释。"
+    },
+    {
+      "id": "A008",
+      "claim": "学术史叙述将觉音来锡置于摩诃那摩王时期，并记其在大寺工作。",
+      "evidence_kind": "modern_scholarship",
+      "source_ids": [
+        "S-HIRAKAWA"
+      ],
+      "display_status": "note",
+      "targets": [
+        {
+          "subject_ref": "E004",
+          "aspects": [
+            "date",
+            "places"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "生平细节主要依赖传统，不给无保留精确生卒年。"
+    },
+    {
+      "id": "A009",
+      "claim": "British Library犍陀罗语写本16+25断代为1–100 CE。",
+      "evidence_kind": "catalogue_metadata",
+      "source_ids": [
+        "S-GANDHARI-MS",
+        "S-UW-BL"
+      ],
+      "display_status": "primary",
+      "targets": [
+        {
+          "subject_ref": "E005",
+          "aspects": [
+            "date"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "这是现存实物断代，不是文本形成期或科学测年结论。"
+    },
+    {
+      "id": "A010",
+      "claim": "BL写本确切出土地未知，哈达附近只是可能的区域。",
+      "evidence_kind": "catalogue_metadata",
+      "source_ids": [
+        "S-UW-BL",
+        "S-GANDHARI-MS"
+      ],
+      "display_status": "note",
+      "targets": [
+        {
+          "subject_ref": "E005",
+          "aspects": [
+            "places"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "PL-HADDA",
+          "aspects": [
+            "name",
+            "modern_name"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "不得写成确定出土于哈达，制作地也不得由此推定。"
+    },
+    {
+      "id": "A011",
+      "claim": "和田《法句经》写本CKM77断代为100–200 CE。",
+      "evidence_kind": "catalogue_metadata",
+      "source_ids": [
+        "S-GANDHARI-CKM77"
+      ],
+      "display_status": "primary",
+      "targets": [
+        {
+          "subject_ref": "E006",
+          "aspects": [
+            "date"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "百年区间为目录断代。"
+    },
+    {
+      "id": "A012",
+      "claim": "CKM77目录将Kok Marim Cave列为带问号的出土地，实物分藏巴黎和圣彼得堡。",
+      "evidence_kind": "catalogue_metadata",
+      "source_ids": [
+        "S-GANDHARI-CKM77"
+      ],
+      "display_status": "note",
+      "targets": [
+        {
+          "subject_ref": "E006",
+          "aspects": [
+            "places"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "PL-KOK-MARIM",
+          "aspects": [
+            "name",
+            "modern_name"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "MS-KHOTAN-DHP",
+          "aspects": [
+            "repository_parts"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "问号机器可读；巴黎部分馆藏号尚未核实。"
+    },
+    {
+      "id": "A013",
+      "claim": "Or.8210/S.797为406年在敦煌制作的纸墨写卷，抄写者著录为德祐。",
+      "evidence_kind": "catalogue_metadata",
+      "source_ids": [
+        "S-NARA-S797"
+      ],
+      "display_status": "primary",
+      "targets": [
+        {
+          "subject_ref": "E007",
+          "aspects": [
+            "title",
+            "event_types",
+            "subject_refs",
+            "date",
+            "places",
+            "participants"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "P-DEYOU",
+          "aspects": [
+            "name"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "PL-DUNHUANG",
+          "aspects": [
+            "name",
+            "modern_name"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "对象级证据只写敦煌，不自行补成莫高窟17窟；406年是抄件时间，不是文本翻译时间。"
+    },
+    {
+      "id": "A014",
+      "claim": "Or.8210/P.2为868年在中国制作的《金刚经》雕版印刷卷。",
+      "evidence_kind": "physical_evidence",
+      "source_ids": [
+        "S-BL-P2",
+        "S-IDP-GILES"
+      ],
+      "display_status": "primary",
+      "targets": [
+        {
+          "subject_ref": "E008",
+          "aspects": [
+            "title",
+            "event_types",
+            "subject_refs",
+            "places"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "PL-CHINA",
+          "aspects": [
+            "name",
+            "modern_name"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "制作地不细化到敦煌。"
+    },
+    {
+      "id": "A015",
+      "claim": "学术图录明确将Or.8210/P.2列为出自莫高窟第17窟的British Library实物。",
+      "evidence_kind": "catalogue_metadata",
+      "source_ids": [
+        "S-BRILL-P2"
+      ],
+      "display_status": "note",
+      "targets": [
+        {
+          "subject_ref": "E008",
+          "aspects": [
+            "places"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "PL-MOGAO-17",
+          "aspects": [
+            "name",
+            "modern_name"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "出土地与现藏地均不是制作地。"
+    },
+    {
+      "id": "A016",
+      "claim": "卷尾原始纪年为唐咸通九年四月十三日，馆藏著录换算为868年5月11日。",
+      "evidence_kind": "physical_evidence",
+      "source_ids": [
+        "S-IDP-GILES",
+        "S-BL-P2"
+      ],
+      "display_status": "note",
+      "targets": [
+        {
+          "subject_ref": "E008",
+          "aspects": [
+            "date"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "原始纪年与公历换算并存；v0.1机器排序仍只到年。"
+    },
+    {
+      "id": "A017",
+      "claim": "《出三藏记集》记《新法华经》于弘始八年夏在长安大寺译出。",
+      "evidence_kind": "traditional_account",
+      "source_ids": [
+        "S-SAT-T2145"
+      ],
+      "display_status": "primary",
+      "targets": [
+        {
+          "subject_ref": "E009",
+          "aspects": [
+            "title",
+            "event_types",
+            "subject_refs",
+            "date",
+            "places",
+            "participants"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "P-B05",
+          "aspects": [
+            "name"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "PL-CHANGAN-DASI",
+          "aspects": [
+            "name",
+            "modern_name"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "406年指汉译事件，不是印度原典形成年。"
+    },
+    {
+      "id": "A018",
+      "claim": "《法华翻经后记》记鸠摩罗什在长安大寺草堂执梵本口译，并有众人参与校订。",
+      "evidence_kind": "traditional_account",
+      "source_ids": [
+        "S-CBETA-T2068"
+      ],
+      "display_status": "note",
+      "targets": [
+        {
+          "subject_ref": "E009",
+          "aspects": [
+            "places",
+            "participants"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "本事件只描述406年译经，不断言现行本每一字均于该年一次完成。"
+    },
+    {
+      "id": "A019",
+      "claim": "传统题署称《大乘起信论》为马鸣造、真谛译。",
+      "evidence_kind": "traditional_account",
+      "source_ids": [
+        "S-CBETA-T1666"
+      ],
+      "display_status": "disputed",
+      "targets": [
+        {
+          "subject_ref": "TV-AF-T1666",
+          "aspects": [
+            "attribution_display"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "P-ASVAGHOSA",
+          "aspects": [
+            "name"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "P-B11",
+          "aspects": [
+            "name"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "题署证明传统归属，不直接证明造者与译者；不制造一个无日期的归属争议事件。"
+    },
+    {
+      "id": "A020",
+      "claim": "Funayama 2017论证该论不能视为单一印度原本的直接翻译，至少部分在中国形成。",
+      "evidence_kind": "modern_scholarship",
+      "source_ids": [
+        "S-CBC-T1666"
+      ],
+      "display_status": "disputed",
+      "targets": [
+        {
+          "subject_ref": "TV-AF-T1666",
+          "aspects": [
+            "origin_claims"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "R002",
+          "aspects": [
+            "type",
+            "from_id",
+            "to_id"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "至少部分形成不等于已证明整部中国伪撰。"
+    },
+    {
+      "id": "A021",
+      "claim": "Muller认为印度直接来源可疑，但整部东亚起源也缺乏具体证据，起源仍有争议。",
+      "evidence_kind": "modern_scholarship",
+      "source_ids": [
+        "S-CBC-T1666"
+      ],
+      "display_status": "note",
+      "targets": [
+        {
+          "subject_ref": "TV-AF-T1666",
+          "aspects": [
+            "origin_claims"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "R003",
+          "aspects": [
+            "type",
+            "from_id",
+            "to_id"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "限定争议的强度，不替学界宣布唯一结论。"
+    },
+    {
+      "id": "A022",
+      "claim": "Sakaino 1935反对将T1666判为伪书。",
+      "evidence_kind": "modern_scholarship",
+      "source_ids": [
+        "S-CBC-T1666"
+      ],
+      "display_status": "alternate",
+      "targets": [
+        {
+          "subject_ref": "TV-AF-T1666",
+          "aspects": [
+            "origin_claims"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "作为不同学术意见保留。"
+    },
+    {
+      "id": "A023",
+      "claim": "《慈恩传》记玄奘于贞观十九年正月返抵长安，经像随后送弘福寺。",
+      "evidence_kind": "traditional_account",
+      "source_ids": [
+        "S-SAT-T2053",
+        "S-BRIT-XUANZANG"
+      ],
+      "display_status": "primary",
+      "targets": [
+        {
+          "subject_ref": "E011",
+          "aspects": [
+            "title",
+            "event_types",
+            "subject_refs",
+            "date",
+            "places",
+            "participants"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "E012",
+          "aspects": [
+            "title",
+            "event_types",
+            "subject_refs",
+            "date",
+            "places",
+            "participants"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "R001",
+          "aspects": [
+            "type",
+            "from_id",
+            "to_id"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "P-B12",
+          "aspects": [
+            "name"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "PL-CHANGAN",
+          "aspects": [
+            "name",
+            "modern_name"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "PL-HONGFU",
+          "aspects": [
+            "name",
+            "modern_name"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "人物返抵与文本流转分别建事件。"
+    },
+    {
+      "id": "A024",
+      "claim": "《慈恩传》卷六总账作520夹657部，包括经律论及因明论、声论等。",
+      "evidence_kind": "traditional_account",
+      "source_ids": [
+        "S-SAT-T2053",
+        "S-BRIT-XUANZANG"
+      ],
+      "display_status": "primary",
+      "targets": [
+        {
+          "subject_ref": "E012",
+          "aspects": [
+            "places",
+            "participants"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "W-XZ-CORPUS",
+          "aspects": [
+            "name_zh",
+            "work_kind"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "PL-INDIA",
+          "aspects": [
+            "name",
+            "modern_name"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "不窄化为657部佛经，也不等于后来译出数量；集合直接关联事件，不伪造TextVersion。"
+    },
+    {
+      "id": "A025",
+      "claim": "同书彦悰序作656部，与卷六总账657部存在异文。",
+      "evidence_kind": "traditional_account",
+      "source_ids": [
+        "S-SAT-T2053"
+      ],
+      "display_status": "alternate",
+      "targets": [
+        {
+          "subject_ref": "E012",
+          "aspects": [
+            "quantity_claims"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "保留数量异说，不静默校正。"
+    },
+    {
+      "id": "A026",
+      "claim": "《开宝藏》主体经版于971年开雕、983年雕毕。",
+      "evidence_kind": "modern_scholarship",
+      "source_ids": [
+        "S-NLC-KAIBAO"
+      ],
+      "display_status": "primary",
+      "targets": [
+        {
+          "subject_ref": "E013",
+          "aspects": [
+            "date"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "不包括后来在开封的持续增补、修订与印刷。"
+    },
+    {
+      "id": "A027",
+      "claim": "《开宝藏》奉宋太祖敕命在益州雕造。",
+      "evidence_kind": "modern_scholarship",
+      "source_ids": [
+        "S-CSSN-KAIBAO"
+      ],
+      "display_status": "primary",
+      "targets": [
+        {
+          "subject_ref": "E013",
+          "aspects": [
+            "title",
+            "event_types",
+            "subject_refs",
+            "places",
+            "participants"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "P-SONG-TAIZU",
+          "aspects": [
+            "name"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "PL-YIZHOU",
+          "aspects": [
+            "name",
+            "modern_name"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "益州刊刻与开封后续存版印刷须分开。"
+    },
+    {
+      "id": "A028",
+      "claim": "学术概述列出阿育王在位纪年两种说法：约前265—前238年，或约前273—前232年；本样本采用后者。",
+      "evidence_kind": "modern_scholarship",
+      "source_ids": [
+        "S-BRIT-ASHOKA"
+      ],
+      "display_status": "primary",
+      "targets": [
+        {
+          "subject_ref": "E002",
+          "aspects": [
+            "date"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "P-ASHOKA",
+          "aspects": [
+            "name"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "在位纪年不是摩哂陀使团的精确年份；另一套纪年保留在说明中。"
+    },
+    {
+      "id": "A101",
+      "claim": "Gandhari.org与华盛顿大学项目著录BL16+25的犍陀罗语《法句经》文本、桦树皮实物和British Library馆藏。",
+      "evidence_kind": "catalogue_metadata",
+      "source_ids": [
+        "S-GANDHARI-MS",
+        "S-UW-BL"
+      ],
+      "display_status": "primary",
+      "targets": [
+        {
+          "subject_ref": "W-DHP",
+          "aspects": [
+            "name_zh",
+            "work_kind"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "TV-DHP-BL16-25",
+          "aspects": [
+            "work_id",
+            "language",
+            "script",
+            "canonical_ids"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "MS-BL16-25",
+          "aspects": [
+            "name",
+            "witness_kind",
+            "text_version_ids",
+            "material",
+            "repository_parts"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "E005",
+          "aspects": [
+            "title",
+            "event_types",
+            "subject_refs"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "实物还含其他文本，不能以《法句经》代替整个实物。"
+    },
+    {
+      "id": "A102",
+      "claim": "Gandhari.org著录CKM77的和田《法句经》文本、桦树皮材质与分藏信息。",
+      "evidence_kind": "catalogue_metadata",
+      "source_ids": [
+        "S-GANDHARI-CKM77"
+      ],
+      "display_status": "primary",
+      "targets": [
+        {
+          "subject_ref": "TV-DHP-KHOTAN",
+          "aspects": [
+            "work_id",
+            "language",
+            "script",
+            "canonical_ids"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "MS-KHOTAN-DHP",
+          "aspects": [
+            "name",
+            "witness_kind",
+            "text_version_ids",
+            "material"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "E006",
+          "aspects": [
+            "title",
+            "event_types",
+            "subject_refs"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "巴黎部分馆藏号尚未核实，保留null。"
+    },
+    {
+      "id": "A103",
+      "claim": "Nara to Norwich对象页著录Or.8210/S.797的说一切有部戒本、汉文文本、纸墨写卷和British Library馆藏。",
+      "evidence_kind": "catalogue_metadata",
+      "source_ids": [
+        "S-NARA-S797"
+      ],
+      "display_status": "primary",
+      "targets": [
+        {
+          "subject_ref": "W-PRATIMOKSA",
+          "aspects": [
+            "name_zh",
+            "work_kind"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "TV-S797-PRATIMOKSA",
+          "aspects": [
+            "work_id",
+            "language",
+            "script",
+            "canonical_ids",
+            "attribution_display"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "MS-S797",
+          "aspects": [
+            "name",
+            "witness_kind",
+            "text_version_ids",
+            "material",
+            "repository_parts"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "译者和部派归属沿用对象页，后续可与经录互校。"
+    },
+    {
+      "id": "A104",
+      "claim": "馆藏与图录著录Or.8210/P.2为鸠摩罗什汉译《金刚经》的868年印刷卷，王玠为施主。",
+      "evidence_kind": "physical_evidence",
+      "source_ids": [
+        "S-BL-P2",
+        "S-IDP-GILES",
+        "S-BRILL-P2",
+        "S-CBETA-T235"
+      ],
+      "display_status": "primary",
+      "targets": [
+        {
+          "subject_ref": "W-DIAMOND",
+          "aspects": [
+            "name_zh",
+            "work_kind"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "TV-DIAMOND-KJ",
+          "aspects": [
+            "work_id",
+            "language",
+            "script",
+            "canonical_ids",
+            "attribution_display"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "PRINT-P2",
+          "aspects": [
+            "name",
+            "witness_kind",
+            "text_version_ids",
+            "material",
+            "repository_parts"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "E008",
+          "aspects": [
+            "participants"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "P-WANGJIE",
+          "aspects": [
+            "name"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "王玠是施主，鸠摩罗什是原译本译者，二者不是868年印刷者。"
+    },
+    {
+      "id": "A105",
+      "claim": "《出三藏记集》著录鸠摩罗什所译《新法华经》，CBETA著录对应T262汉译版本。",
+      "evidence_kind": "traditional_account",
+      "source_ids": [
+        "S-SAT-T2145",
+        "S-CBETA-T262"
+      ],
+      "display_status": "primary",
+      "targets": [
+        {
+          "subject_ref": "W-LOTUS",
+          "aspects": [
+            "name_zh",
+            "work_kind"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "TV-LOTUS-KJ",
+          "aspects": [
+            "work_id",
+            "language",
+            "script",
+            "canonical_ids",
+            "attribution_display"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "经录与藏经版本标识分别保留来源。"
+    },
+    {
+      "id": "A106",
+      "claim": "CBETA T1666著录《大乘起信论》及其汉文藏经版本。",
+      "evidence_kind": "catalogue_metadata",
+      "source_ids": [
+        "S-CBETA-T1666"
+      ],
+      "display_status": "primary",
+      "targets": [
+        {
+          "subject_ref": "W-AF",
+          "aspects": [
+            "name_zh",
+            "work_kind"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "TV-AF-T1666",
+          "aspects": [
+            "work_id",
+            "language",
+            "script",
+            "canonical_ids"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "传统归属另由A019及争议Assertions处理。"
+    },
+    {
+      "id": "A107",
+      "claim": "巴利三藏及其斯里兰卡口传、写定传统有《大史》和现代学术概述著录。",
+      "evidence_kind": "modern_scholarship",
+      "source_ids": [
+        "S-MAHAVAMSA33",
+        "S-BRIT-PALI"
+      ],
+      "display_status": "primary",
+      "targets": [
+        {
+          "subject_ref": "W-PALI-CANON",
+          "aspects": [
+            "name_zh",
+            "work_kind"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "TV-PALI-CANON",
+          "aspects": [
+            "work_id",
+            "language",
+            "script"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "集合级版本，不代替具体尼柯耶和单经记录。"
+    },
+    {
+      "id": "A108",
+      "claim": "觉音相关巴利注释文献及其语言、集合性质有学术传记著录。",
+      "evidence_kind": "modern_scholarship",
+      "source_ids": [
+        "S-BRIT-BUDDHAGHOSA"
+      ],
+      "display_status": "primary",
+      "targets": [
+        {
+          "subject_ref": "W-PALI-COMMENT",
+          "aspects": [
+            "name_zh",
+            "work_kind"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "TV-PALI-COMMENT",
+          "aspects": [
+            "work_id",
+            "language",
+            "script"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "具体注释书以后分别建作品。"
+    },
+    {
+      "id": "A109",
+      "claim": "《相应部》56.11为巴利语转法轮经文本，SuttaCentral以sn56.11标识。",
+      "evidence_kind": "catalogue_metadata",
+      "source_ids": [
+        "S-SN56-11",
+        "S-SC-SN56"
+      ],
+      "display_status": "primary",
+      "targets": [
+        {
+          "subject_ref": "W-DHARMACAKRA",
+          "aspects": [
+            "name_zh",
+            "work_kind"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "TV-SN56-11",
+          "aspects": [
+            "work_id",
+            "language",
+            "script",
+            "canonical_ids"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "原典电子文本与规范ID分别回链。"
+    },
+    {
+      "id": "A110",
+      "claim": "《开宝藏》为汉文刻本大藏经，971—983年主体刊刻。",
+      "evidence_kind": "modern_scholarship",
+      "source_ids": [
+        "S-NLC-KAIBAO"
+      ],
+      "display_status": "primary",
+      "targets": [
+        {
+          "subject_ref": "W-KAIBAO",
+          "aspects": [
+            "name_zh",
+            "work_kind"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "TV-KAIBAO-ZH",
+          "aspects": [
+            "work_id",
+            "language",
+            "script"
+          ],
+          "proposed_values": {}
+        },
+        {
+          "subject_ref": "E013",
+          "aspects": [
+            "subject_refs"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "藏经集合级版本，不指某一件传世印本。"
+    },
+    {
+      "id": "A-WD-Q324394",
+      "evidence_kind": "catalogue_metadata",
+      "source_ids": [
+        "S-WD-Q324394"
+      ],
+      "display_status": "primary",
+      "claim": "Wikidata 条目 Q324394 提供「波罗奈近郊鹿野苑（Isipatana）」的现代对应（印度萨尔纳特（Sarnath））与坐标；精度记为 site",
+      "targets": [
+        {
+          "subject_ref": "PL-SARNATH",
+          "aspects": [
+            "modern_name",
+            "external_ids",
+            "latitude",
+            "longitude"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "A-WD-Q542107",
+      "evidence_kind": "catalogue_metadata",
+      "source_ids": [
+        "S-WD-Q542107"
+      ],
+      "display_status": "primary",
+      "claim": "Wikidata 条目 Q542107 提供「阿努拉德普勒大寺」的现代对应（斯里兰卡阿努拉德普勒Mahāvihāra）与坐标；精度记为 site",
+      "targets": [
+        {
+          "subject_ref": "PL-ANURADHAPURA",
+          "aspects": [
+            "modern_name",
+            "external_ids",
+            "latitude",
+            "longitude"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "A-WD-Q515069",
+      "evidence_kind": "catalogue_metadata",
+      "source_ids": [
+        "S-WD-Q515069"
+      ],
+      "display_status": "primary",
+      "claim": "Wikidata 条目 Q515069 提供「哈达（Haḍḍa）附近地区」的现代对应（阿富汗楠格哈尔省Bihsud地区）与坐标；精度记为 site",
+      "targets": [
+        {
+          "subject_ref": "PL-HADDA",
+          "aspects": [
+            "modern_name",
+            "external_ids",
+            "latitude",
+            "longitude"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "A-WD-Q319114",
+      "evidence_kind": "catalogue_metadata",
+      "source_ids": [
+        "S-WD-Q319114"
+      ],
+      "display_status": "primary",
+      "claim": "Wikidata 条目 Q319114 提供「敦煌」的现代对应（中国甘肃敦煌）与坐标；精度记为 city",
+      "targets": [
+        {
+          "subject_ref": "PL-DUNHUANG",
+          "aspects": [
+            "modern_name",
+            "external_ids",
+            "latitude",
+            "longitude"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "A-WD-Q43286",
+      "evidence_kind": "catalogue_metadata",
+      "source_ids": [
+        "S-WD-Q43286"
+      ],
+      "display_status": "primary",
+      "claim": "Wikidata 条目 Q43286 提供「莫高窟第17窟（藏经洞）」的现代对应（中国甘肃敦煌莫高窟第17窟）与坐标；精度记为 site_within",
+      "targets": [
+        {
+          "subject_ref": "PL-MOGAO-17",
+          "aspects": [
+            "modern_name",
+            "external_ids",
+            "latitude",
+            "longitude"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": "莫高窟遗址级坐标；藏经洞（第17窟）窟级未单独配准"
+    },
+    {
+      "id": "A-WD-Q6501000",
+      "evidence_kind": "catalogue_metadata",
+      "source_ids": [
+        "S-WD-Q6501000"
+      ],
+      "display_status": "primary",
+      "claim": "Wikidata 条目 Q6501000 提供「长安／西京」的现代对应（今陕西西安）与坐标；精度记为 ancient_city_site",
+      "targets": [
+        {
+          "subject_ref": "PL-CHANGAN",
+          "aspects": [
+            "modern_name",
+            "external_ids",
+            "latitude",
+            "longitude"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "A-WD-Q30002",
+      "evidence_kind": "catalogue_metadata",
+      "source_ids": [
+        "S-WD-Q30002"
+      ],
+      "display_status": "primary",
+      "claim": "Wikidata 条目 Q30002 提供「益州」的现代对应（今四川成都）与坐标；精度记为 city",
+      "targets": [
+        {
+          "subject_ref": "PL-YIZHOU",
+          "aspects": [
+            "modern_name",
+            "external_ids",
+            "latitude",
+            "longitude"
+          ],
+          "proposed_values": {}
+        }
+      ],
+      "notes": ""
+    }
+  ],
+  "events": [
+    {
+      "id": "E001",
+      "case_id": "C001",
+      "title": "佛陀于鹿野苑初转法轮（传统叙事）",
+      "event_types": [
+        "religious_teaching"
+      ],
+      "subject_refs": [
+        "P-BUDDHA",
+        "W-DHARMACAKRA",
+        "TV-SN56-11"
+      ],
+      "date": {
+        "start_year": -563,
+        "end_year": -383,
+        "display": "通常聚焦约前5世纪；检索采用563—383 BCE的编辑包络",
+        "original": null,
+        "precision": "broad_lifetime_range",
+        "basis": "Met列传统563—483 BCE及部分学者整体晚约一百年；编辑据此形成检索包络",
+        "start_month": null,
+        "start_day": null,
+        "end_month": null,
+        "end_day": null,
+        "ongoing": false
+      },
+      "places": [
+        {
+          "place_id": "PL-SARNATH",
+          "place_text": "波罗奈近郊鹿野苑（Isipatana）",
+          "role": "teaching",
+          "certainty": "source_attested",
+          "assertion_ids": [
+            "A001"
+          ]
+        }
+      ],
+      "participants": [
+        {
+          "person_id": "P-BUDDHA",
+          "role": "teacher_in_tradition",
+          "assertion_ids": [
+            "A001"
+          ]
+        }
+      ],
+      "assertion_ids": [
+        "A001",
+        "A002"
+      ],
+      "related_event_ids": [],
+      "review_status": "source_checked",
+      "notes": "source_attested只表示来源明确如此叙述，不代表现代同期史料证实。"
+    },
+    {
+      "id": "E002",
+      "case_id": "C002",
+      "title": "阿育王时期佛教向斯里兰卡传播",
+      "event_types": [
+        "religious_transmission"
+      ],
+      "subject_refs": [
+        "P-ASHOKA",
+        "P-MAHINDA"
+      ],
+      "date": {
+        "start_year": -273,
+        "end_year": -232,
+        "display": "约前3世纪，阿育王在位期；使团传统常系于约前251年",
+        "original": null,
+        "precision": "year_range",
+        "basis": "采用学术概述所列c. 273–232 BCE纪年；另有c. 265–238 BCE说，具体使团年依传统",
+        "start_month": null,
+        "start_day": null,
+        "end_month": null,
+        "end_day": null,
+        "ongoing": false
+      },
+      "places": [
+        {
+          "place_id": "PL-INDIA",
+          "place_text": "阿育王统治下的印度",
+          "role": "origin",
+          "certainty": "source_attested",
+          "assertion_ids": [
+            "A003"
+          ]
+        },
+        {
+          "place_id": "PL-SRI-LANKA",
+          "place_text": "锡兰",
+          "role": "destination",
+          "certainty": "source_attested",
+          "assertion_ids": [
+            "A003",
+            "A004"
+          ]
+        }
+      ],
+      "participants": [
+        {
+          "person_id": "P-ASHOKA",
+          "role": "royal_patron_and_sender_in_tradition",
+          "assertion_ids": [
+            "A003",
+            "A004"
+          ]
+        },
+        {
+          "person_id": "P-MAHINDA",
+          "role": "missionary_in_tradition",
+          "assertion_ids": [
+            "A004"
+          ]
+        }
+      ],
+      "assertion_ids": [
+        "A003",
+        "A004",
+        "A028"
+      ],
+      "related_event_ids": [],
+      "review_status": "source_checked",
+      "notes": "石刻证据与后世传教传统在同一事件中并列但分Assertion；后续可进一步拆分。"
+    },
+    {
+      "id": "E003",
+      "case_id": "C003",
+      "title": "斯里兰卡僧团将三藏及注释写录成书（《大史》传统）",
+      "event_types": [
+        "textual_transcription"
+      ],
+      "subject_refs": [
+        "W-PALI-CANON",
+        "TV-PALI-CANON",
+        "W-PALI-COMMENT"
+      ],
+      "date": {
+        "start_year": -100,
+        "end_year": -1,
+        "display": "前1世纪（传统记载；具体年份不确定）",
+        "original": null,
+        "precision": "century",
+        "basis": "《大史》传统及现代概述",
+        "start_month": null,
+        "start_day": null,
+        "end_month": null,
+        "end_day": null,
+        "ongoing": false
+      },
+      "places": [
+        {
+          "place_id": "PL-SRI-LANKA",
+          "place_text": "斯里兰卡",
+          "role": "transcription",
+          "certainty": "source_attested",
+          "assertion_ids": [
+            "A005",
+            "A006"
+          ]
+        }
+      ],
+      "participants": [],
+      "assertion_ids": [
+        "A005",
+        "A006"
+      ],
+      "related_event_ids": [],
+      "review_status": "source_checked",
+      "notes": "地点只保持岛屿级；未将阿卢寺写成该段直接证据。"
+    },
+    {
+      "id": "E004",
+      "case_id": "C004",
+      "title": "觉音在阿努拉德普勒大寺开展巴利注释工作",
+      "event_types": [
+        "commentarial_compilation"
+      ],
+      "subject_refs": [
+        "P-BUDDHAGHOSA",
+        "W-PALI-COMMENT",
+        "TV-PALI-COMMENT"
+      ],
+      "date": {
+        "start_year": 400,
+        "end_year": 499,
+        "display": "约5世纪",
+        "original": null,
+        "precision": "century",
+        "basis": "现代学术传记与佛教史概述",
+        "start_month": null,
+        "start_day": null,
+        "end_month": null,
+        "end_day": null,
+        "ongoing": false
+      },
+      "places": [
+        {
+          "place_id": "PL-ANURADHAPURA",
+          "place_text": "阿努拉德普勒大寺（Mahāvihāra）",
+          "role": "textual_scholarship",
+          "certainty": "source_attested",
+          "assertion_ids": [
+            "A007",
+            "A008"
+          ]
+        }
+      ],
+      "participants": [
+        {
+          "person_id": "P-BUDDHAGHOSA",
+          "role": "commentator_and_translator",
+          "assertion_ids": [
+            "A007",
+            "A008"
+          ]
+        }
+      ],
+      "assertion_ids": [
+        "A007",
+        "A008"
+      ],
+      "related_event_ids": [],
+      "review_status": "source_checked",
+      "notes": "具体作品归属以后逐项建Assertion。"
+    },
+    {
+      "id": "E005",
+      "case_id": "C005",
+      "title": "British Library犍陀罗语写本16+25制作",
+      "event_types": [
+        "manuscript_copying"
+      ],
+      "subject_refs": [
+        "MS-BL16-25",
+        "TV-DHP-BL16-25"
+      ],
+      "date": {
+        "start_year": 1,
+        "end_year": 100,
+        "display": "1–100 CE（约1世纪）",
+        "original": null,
+        "precision": "estimated_range",
+        "basis": "专业写本目录断代，不是文本形成年代",
+        "start_month": null,
+        "start_day": null,
+        "end_month": null,
+        "end_day": null,
+        "ongoing": false
+      },
+      "places": [
+        {
+          "place_id": "PL-HADDA",
+          "place_text": "Haḍḍa附近地区",
+          "role": "findspot",
+          "certainty": "uncertain",
+          "assertion_ids": [
+            "A010"
+          ]
+        },
+        {
+          "place_id": null,
+          "place_text": "制作地未知",
+          "role": "production",
+          "certainty": "unknown",
+          "assertion_ids": [
+            "A010"
+          ]
+        }
+      ],
+      "participants": [],
+      "assertion_ids": [
+        "A009",
+        "A010",
+        "A101"
+      ],
+      "related_event_ids": [],
+      "review_status": "source_checked",
+      "notes": "现藏信息在Witness；不因现藏伦敦而把制作地写成伦敦。"
+    },
+    {
+      "id": "E006",
+      "case_id": "C006",
+      "title": "和田《法句经》犍陀罗语写本制作",
+      "event_types": [
+        "manuscript_copying"
+      ],
+      "subject_refs": [
+        "MS-KHOTAN-DHP",
+        "TV-DHP-KHOTAN"
+      ],
+      "date": {
+        "start_year": 100,
+        "end_year": 200,
+        "display": "100–200 CE（约2世纪）",
+        "original": null,
+        "precision": "estimated_range",
+        "basis": "Gandhari.org目录断代",
+        "start_month": null,
+        "start_day": null,
+        "end_month": null,
+        "end_day": null,
+        "ongoing": false
+      },
+      "places": [
+        {
+          "place_id": "PL-KOK-MARIM",
+          "place_text": "Kok Marim Cave, Hotan?",
+          "role": "findspot",
+          "certainty": "uncertain",
+          "assertion_ids": [
+            "A012"
+          ]
+        },
+        {
+          "place_id": null,
+          "place_text": "制作地未知",
+          "role": "production",
+          "certainty": "unknown",
+          "assertion_ids": [
+            "A012"
+          ]
+        }
+      ],
+      "participants": [],
+      "assertion_ids": [
+        "A011",
+        "A012",
+        "A102"
+      ],
+      "related_event_ids": [],
+      "review_status": "source_checked",
+      "notes": "一个写本分藏两地，巴黎部分馆藏号留空。"
+    },
+    {
+      "id": "E007",
+      "case_id": "C007",
+      "title": "德祐抄《波罗提木叉经》Or.8210/S.797",
+      "event_types": [
+        "manuscript_copying"
+      ],
+      "subject_refs": [
+        "MS-S797",
+        "TV-S797-PRATIMOKSA",
+        "P-DEYOU"
+      ],
+      "date": {
+        "start_year": 406,
+        "end_year": 406,
+        "display": "406 CE",
+        "original": null,
+        "precision": "year",
+        "basis": "馆藏对象著录及写卷信息",
+        "start_month": null,
+        "start_day": null,
+        "end_month": null,
+        "end_day": null,
+        "ongoing": false
+      },
+      "places": [
+        {
+          "place_id": "PL-DUNHUANG",
+          "place_text": "Dunhuang",
+          "role": "production",
+          "certainty": "source_attested",
+          "assertion_ids": [
+            "A013"
+          ]
+        },
+        {
+          "place_id": "PL-DUNHUANG",
+          "place_text": "Dunhuang",
+          "role": "findspot",
+          "certainty": "source_attested",
+          "assertion_ids": [
+            "A013"
+          ]
+        }
+      ],
+      "participants": [
+        {
+          "person_id": "P-DEYOU",
+          "role": "scribe",
+          "assertion_ids": [
+            "A013"
+          ]
+        }
+      ],
+      "assertion_ids": [
+        "A013",
+        "A103"
+      ],
+      "related_event_ids": [],
+      "review_status": "source_checked",
+      "notes": "翻译历史另建事件，不由406年抄件反推。"
+    },
+    {
+      "id": "E008",
+      "case_id": "C008",
+      "title": "868年《金刚经》Or.8210/P.2雕版印刷",
+      "event_types": [
+        "woodblock_printing"
+      ],
+      "subject_refs": [
+        "PRINT-P2",
+        "TV-DIAMOND-KJ",
+        "P-WANGJIE"
+      ],
+      "date": {
+        "start_year": 868,
+        "end_year": 868,
+        "display": "868年5月11日",
+        "original": "唐咸通九年四月十三日",
+        "precision": "day",
+        "basis": "卷尾纪年题记及馆藏公历换算；v0.1机器排序只到年",
+        "start_month": null,
+        "start_day": null,
+        "end_month": null,
+        "end_day": null,
+        "ongoing": false
+      },
+      "places": [
+        {
+          "place_id": "PL-CHINA",
+          "place_text": "China",
+          "role": "production",
+          "certainty": "source_attested",
+          "assertion_ids": [
+            "A014"
+          ]
+        },
+        {
+          "place_id": "PL-MOGAO-17",
+          "place_text": "敦煌莫高窟第17窟",
+          "role": "findspot",
+          "certainty": "source_attested",
+          "assertion_ids": [
+            "A015"
+          ]
+        }
+      ],
+      "participants": [
+        {
+          "person_id": "P-WANGJIE",
+          "role": "sponsor",
+          "assertion_ids": [
+            "A104"
+          ]
+        },
+        {
+          "person_id": "P-B05",
+          "role": "translator_of_source_version",
+          "assertion_ids": [
+            "A104"
+          ]
+        }
+      ],
+      "assertion_ids": [
+        "A014",
+        "A015",
+        "A016",
+        "A104"
+      ],
+      "related_event_ids": [],
+      "review_status": "source_checked",
+      "notes": "王玠不是译者，鸠摩罗什也不是868年印刷者。"
+    },
+    {
+      "id": "E009",
+      "case_id": "C009",
+      "title": "鸠摩罗什在长安译《妙法莲华经》",
+      "event_types": [
+        "text_translation"
+      ],
+      "subject_refs": [
+        "W-LOTUS",
+        "TV-LOTUS-KJ",
+        "P-B05"
+      ],
+      "date": {
+        "start_year": 406,
+        "end_year": 406,
+        "display": "后秦弘始八年夏（406年）",
+        "original": "弘始八年夏",
+        "precision": "year",
+        "basis": "《出三藏记集》经录与译经后记",
+        "start_month": null,
+        "start_day": null,
+        "end_month": null,
+        "end_day": null,
+        "ongoing": false
+      },
+      "places": [
+        {
+          "place_id": "PL-CHANGAN-DASI",
+          "place_text": "长安大寺；后记称草堂之中",
+          "role": "translation",
+          "certainty": "source_attested",
+          "assertion_ids": [
+            "A017",
+            "A018"
+          ]
+        }
+      ],
+      "participants": [
+        {
+          "person_id": "P-B05",
+          "role": "lead_translator",
+          "assertion_ids": [
+            "A017",
+            "A018"
+          ]
+        }
+      ],
+      "assertion_ids": [
+        "A017",
+        "A018"
+      ],
+      "related_event_ids": [],
+      "review_status": "source_checked",
+      "notes": "本事件只描述406年译经，不把该事件等同现行本全部文本的一次形成。"
+    },
+    {
+      "id": "E011",
+      "case_id": "C011",
+      "title": "玄奘645年返抵长安",
+      "event_types": [
+        "person_movement"
+      ],
+      "subject_refs": [
+        "P-B12"
+      ],
+      "date": {
+        "start_year": 645,
+        "end_year": 645,
+        "display": "唐贞观十九年正月（645年）",
+        "original": "贞观十九年春正月",
+        "precision": "month",
+        "basis": "《慈恩传》及现代传记；v0.1机器排序只到年",
+        "start_month": null,
+        "start_day": null,
+        "end_month": null,
+        "end_day": null,
+        "ongoing": false
+      },
+      "places": [
+        {
+          "place_id": "PL-CHANGAN",
+          "place_text": "长安／西京",
+          "role": "destination",
+          "certainty": "source_attested",
+          "assertion_ids": [
+            "A023"
+          ]
+        }
+      ],
+      "participants": [
+        {
+          "person_id": "P-B12",
+          "role": "returning_pilgrim",
+          "assertion_ids": [
+            "A023"
+          ]
+        }
+      ],
+      "assertion_ids": [
+        "A023"
+      ],
+      "related_event_ids": [
+        "E012"
+      ],
+      "review_status": "source_checked",
+      "notes": "完整求法路线以后拆为分段事件，本样本只核实返抵节点。"
+    },
+    {
+      "id": "E012",
+      "case_id": "C011",
+      "title": "玄奘携回梵本随之转入长安弘福寺",
+      "event_types": [
+        "text_transfer"
+      ],
+      "subject_refs": [
+        "W-XZ-CORPUS",
+        "P-B12"
+      ],
+      "date": {
+        "start_year": 645,
+        "end_year": 645,
+        "display": "唐贞观十九年正月（645年）",
+        "original": "贞观十九年春正月",
+        "precision": "month",
+        "basis": "《慈恩传》卷六经像接收与总账；v0.1机器排序只到年",
+        "start_month": null,
+        "start_day": null,
+        "end_month": null,
+        "end_day": null,
+        "ongoing": false
+      },
+      "places": [
+        {
+          "place_id": "PL-HONGFU",
+          "place_text": "弘福寺",
+          "role": "destination",
+          "certainty": "source_attested",
+          "assertion_ids": [
+            "A023"
+          ]
+        },
+        {
+          "place_id": "PL-INDIA",
+          "place_text": "西域／印度（广义来源区域）",
+          "role": "origin_region",
+          "certainty": "uncertain",
+          "assertion_ids": [
+            "A024"
+          ]
+        }
+      ],
+      "participants": [
+        {
+          "person_id": "P-B12",
+          "role": "bearer_of_texts",
+          "assertion_ids": [
+            "A023",
+            "A024"
+          ]
+        }
+      ],
+      "assertion_ids": [
+        "A023",
+        "A024",
+        "A025"
+      ],
+      "related_event_ids": [
+        "E011"
+      ],
+      "review_status": "source_checked",
+      "notes": "主记录657部520夹，另存656部异文；集合直接关联事件，不伪造TextVersion；来源区域是概括，不画精确路线。"
+    },
+    {
+      "id": "E013",
+      "case_id": "C012",
+      "title": "北宋官敕雕造《开宝藏》",
+      "event_types": [
+        "canon_block_carving_project"
+      ],
+      "subject_refs": [
+        "W-KAIBAO",
+        "TV-KAIBAO-ZH",
+        "P-SONG-TAIZU"
+      ],
+      "date": {
+        "start_year": 971,
+        "end_year": 983,
+        "display": "北宋开宝四年至太平兴国八年（971—983年）",
+        "original": "开宝四年至太平兴国八年",
+        "precision": "year_range",
+        "basis": "大藏经史及印本研究",
+        "start_month": null,
+        "start_day": null,
+        "end_month": null,
+        "end_day": null,
+        "ongoing": false
+      },
+      "places": [
+        {
+          "place_id": "PL-YIZHOU",
+          "place_text": "益州（今四川成都）",
+          "role": "block_carving",
+          "certainty": "source_attested",
+          "assertion_ids": [
+            "A027"
+          ]
+        }
+      ],
+      "participants": [
+        {
+          "person_id": "P-SONG-TAIZU",
+          "role": "imperial_commissioner",
+          "assertion_ids": [
+            "A027"
+          ]
+        }
+      ],
+      "assertion_ids": [
+        "A026",
+        "A027",
+        "A110"
+      ],
+      "related_event_ids": [],
+      "review_status": "source_checked",
+      "notes": "仅指主体经版雕造；开封后续存版、印刷和增补另建事件。"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R001",
+      "type": "associated_arrival",
+      "from_id": "E011",
+      "to_id": "E012",
+      "assertion_ids": [
+        "A023",
+        "A024"
+      ]
+    },
+    {
+      "id": "R002",
+      "type": "contradicts_simple_attribution",
+      "from_id": "A020",
+      "to_id": "A019",
+      "assertion_ids": [
+        "A019",
+        "A020"
+      ]
+    },
+    {
+      "id": "R003",
+      "type": "qualifies",
+      "from_id": "A021",
+      "to_id": "A020",
+      "assertion_ids": [
+        "A020",
+        "A021"
+      ]
+    }
+  ],
+  "sample_cases": [
+    {
+      "id": "C001",
+      "title": "佛陀说法",
+      "challenge": "传统叙事、口头说法与成文分离、佛陀年代宽区间",
+      "event_ids": [
+        "E001"
+      ]
+    },
+    {
+      "id": "C002",
+      "title": "阿育王与斯里兰卡",
+      "challenge": "同期石刻与后世传统不能共享一个笼统verified标记",
+      "event_ids": [
+        "E002"
+      ]
+    },
+    {
+      "id": "C003",
+      "title": "巴利三藏写定",
+      "challenge": "传统写定事件、世纪区间、岛屿级地点精度",
+      "event_ids": [
+        "E003"
+      ]
+    },
+    {
+      "id": "C004",
+      "title": "觉音注释工作",
+      "challenge": "约世纪年代、集合级作品、避免扩大作者归属",
+      "event_ids": [
+        "E004"
+      ]
+    },
+    {
+      "id": "C005",
+      "title": "BL犍陀罗写本",
+      "challenge": "实物与文本分层、制作地未知、出土地不确定",
+      "event_ids": [
+        "E005"
+      ]
+    },
+    {
+      "id": "C006",
+      "title": "和田《法句经》",
+      "challenge": "一个写本分藏多馆、馆藏号未知、目录问号",
+      "event_ids": [
+        "E006"
+      ]
+    },
+    {
+      "id": "C007",
+      "title": "406年敦煌戒本",
+      "challenge": "单件写本、制作地与出土地、抄件年与译经年分离",
+      "event_ids": [
+        "E007"
+      ]
+    },
+    {
+      "id": "C008",
+      "title": "868年《金刚经》",
+      "challenge": "具体日纪年、原版纪年、制作/出土/现藏、人物角色分离",
+      "event_ids": [
+        "E008"
+      ]
+    },
+    {
+      "id": "C009",
+      "title": "406年《法华经》汉译",
+      "challenge": "原典与译本分层、原始纪年、译经事件不等同现行本全部文本",
+      "event_ids": [
+        "E009"
+      ]
+    },
+    {
+      "id": "C010",
+      "title": "《大乘起信论》归属",
+      "challenge": "仅由Assertions承载传统题署与现代争议，不制造无日期的归属争议事件",
+      "event_ids": []
+    },
+    {
+      "id": "C011",
+      "title": "玄奘返长安",
+      "challenge": "人物移动与文本流转拆分为关联事件、数量异文",
+      "event_ids": [
+        "E011",
+        "E012"
+      ]
+    },
+    {
+      "id": "C012",
+      "title": "《开宝藏》刊刻",
+      "challenge": "项目型年代区间、刊刻地与后续存版地分离",
+      "event_ids": [
+        "E013"
+      ]
+    }
+  ]
+}

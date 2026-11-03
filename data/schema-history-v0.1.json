@@ -1,0 +1,517 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.xianmi.co/buddhism/data/schema-history-v0.1.json",
+  "title": "Buddhist History Graph v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "dataset_status",
+    "traditions",
+    "history_events",
+    "relations",
+    "assertions"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "0.1"
+    },
+    "dataset_status": {
+      "enum": [
+        "history_seed",
+        "history_backbone_draft"
+      ]
+    },
+    "traditions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/tradition"
+      }
+    },
+    "history_events": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/historyEvent"
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/relation"
+      }
+    },
+    "assertions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/assertion"
+      }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9]*-[A-Z0-9][A-Z0-9-]*$"
+    },
+    "atlasRef": {
+      "type": "string",
+      "pattern": "^atlas:[A-Za-z0-9]+(?:-[A-Za-z0-9]+)*$"
+    },
+    "ref": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/id"
+        },
+        {
+          "$ref": "#/$defs/atlasRef"
+        }
+      ]
+    },
+    "assertionIds": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/id"
+      }
+    },
+    "label": {
+      "$ref": "https://www.xianmi.co/buddhism/data/schema-core-v0.1.json#/$defs/label"
+    },
+    "labels": {
+      "$ref": "https://www.xianmi.co/buddhism/data/schema-core-v0.1.json#/$defs/labels"
+    },
+    "date": {
+      "$ref": "https://www.xianmi.co/buddhism/data/schema-core-v0.1.json#/$defs/date"
+    },
+    "dateOrNull": {
+      "$ref": "https://www.xianmi.co/buddhism/data/schema-core-v0.1.json#/$defs/dateOrNull"
+    },
+    "founder": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "person_ref",
+        "claim"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "person_ref": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^P-[A-Z0-9][A-Z0-9-]*$"
+        },
+        "claim": {
+          "enum": [
+            "traditional_account",
+            "modern_scholarship"
+          ]
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "activityProfile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "points"
+      ],
+      "properties": {
+        "points": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "date",
+              "stage",
+              "assertion_ids"
+            ],
+            "properties": {
+              "date": {
+                "$ref": "#/$defs/date"
+              },
+              "stage": {
+                "enum": [
+                  "growth",
+                  "peak",
+                  "decline",
+                  "legacy"
+                ]
+              },
+              "assertion_ids": {
+                "$ref": "#/$defs/assertionIds"
+              }
+            }
+          }
+        }
+      }
+    },
+    "atlasLink": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ref",
+        "role"
+      ],
+      "properties": {
+        "ref": {
+          "$ref": "#/$defs/atlasRef"
+        },
+        "role": {
+          "enum": [
+            "same_as",
+            "related_work",
+            "related_event",
+            "related_person",
+            "related_text_version",
+            "related_witness",
+            "related_assertion",
+            "related_place"
+          ]
+        }
+      }
+    },
+    "atlasLinks": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/atlasLink"
+      }
+    },
+    "entityRole": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "entity_ref",
+        "role",
+        "assertion_ids"
+      ],
+      "properties": {
+        "entity_ref": {
+          "$ref": "#/$defs/ref"
+        },
+        "role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assertion_ids": {
+          "$ref": "#/$defs/assertionIds"
+        }
+      }
+    },
+    "tradition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "labels",
+        "kinds",
+        "summary",
+        "active_date",
+        "region_refs",
+        "atlas_links",
+        "assertion_ids"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "labels": {
+          "$ref": "#/$defs/labels"
+        },
+        "kinds": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "early_community",
+              "nikaya",
+              "movement",
+              "textual_tradition",
+              "vehicle",
+              "regional_transmission",
+              "school",
+              "lineage",
+              "organization",
+              "modern_movement"
+            ]
+          }
+        },
+        "summary": {
+          "type": "string"
+        },
+        "active_date": {
+          "$ref": "#/$defs/dateOrNull"
+        },
+        "activity_profile": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/activityProfile"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "founders": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/founder"
+          }
+        },
+        "region_refs": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/ref"
+          }
+        },
+        "atlas_links": {
+          "$ref": "#/$defs/atlasLinks"
+        },
+        "assertion_ids": {
+          "$ref": "#/$defs/assertionIds"
+        }
+      }
+    },
+    "person": {
+      "$ref": "https://www.xianmi.co/buddhism/data/schema-core-v0.1.json#/$defs/person"
+    },
+    "place": {
+      "$ref": "https://www.xianmi.co/buddhism/data/schema-core-v0.1.json#/$defs/place"
+    },
+    "eventPlace": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "place_ref",
+        "role",
+        "certainty",
+        "assertion_ids"
+      ],
+      "properties": {
+        "place_ref": {
+          "$ref": "#/$defs/ref"
+        },
+        "role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "certainty": {
+          "enum": [
+            "source_attested",
+            "probable",
+            "uncertain",
+            "unknown"
+          ]
+        },
+        "assertion_ids": {
+          "$ref": "#/$defs/assertionIds"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "participant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "entity_ref",
+        "role",
+        "certainty",
+        "assertion_ids"
+      ],
+      "properties": {
+        "entity_ref": {
+          "$ref": "#/$defs/ref"
+        },
+        "role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "certainty": {
+          "enum": [
+            "source_attested",
+            "probable",
+            "uncertain",
+            "unknown"
+          ]
+        },
+        "assertion_ids": {
+          "$ref": "#/$defs/assertionIds"
+        }
+      }
+    },
+    "historyEvent": {
+      "allOf": [
+        {
+          "$ref": "https://www.xianmi.co/buddhism/data/schema-core-v0.1.json#/$defs/eventBase"
+        },
+        {
+          "type": "object",
+          "required": [
+            "id",
+            "title",
+            "event_types",
+            "date",
+            "subjects",
+            "results",
+            "places",
+            "participants",
+            "atlas_links",
+            "assertion_ids",
+            "review_status"
+          ],
+          "properties": {
+            "id": {
+              "$ref": "#/$defs/id"
+            },
+            "title": {
+              "type": "string",
+              "minLength": 1
+            },
+            "event_types": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "enum": [
+                  "teaching",
+                  "council",
+                  "schism",
+                  "textual_formation",
+                  "translation",
+                  "transmission",
+                  "institutional_formation",
+                  "suppression",
+                  "revival",
+                  "organization_founding",
+                  "modern_reinterpretation"
+                ]
+              }
+            },
+            "subjects": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/entityRole"
+              }
+            },
+            "results": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/entityRole"
+              }
+            },
+            "places": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/eventPlace"
+              }
+            },
+            "participants": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/participant"
+              }
+            },
+            "atlas_links": {
+              "$ref": "#/$defs/atlasLinks"
+            },
+            "assertion_ids": {
+              "$ref": "#/$defs/assertionIds"
+            },
+            "review_status": {
+              "enum": [
+                "draft",
+                "source_checked",
+                "scholar_reviewed",
+                "published"
+              ]
+            }
+          }
+        }
+      ],
+      "unevaluatedProperties": false
+    },
+    "relation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "from_ref",
+        "to_ref",
+        "valid_time",
+        "qualifier",
+        "assertion_ids"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "type": {
+          "enum": [
+            "schism_from",
+            "influenced_by",
+            "teacher_of",
+            "ordination_lineage",
+            "textual_continuity",
+            "textual_basis",
+            "institutional_succession",
+            "transmitted_to",
+            "revived_as",
+            "claimed_revival_of",
+            "modern_reinterpretation",
+            "dharma_heir",
+            "fellow_student",
+            "translation_collaborator",
+            "opponent"
+          ]
+        },
+        "from_ref": {
+          "$ref": "#/$defs/ref"
+        },
+        "to_ref": {
+          "$ref": "#/$defs/ref"
+        },
+        "valid_time": {
+          "$ref": "#/$defs/dateOrNull"
+        },
+        "qualifier": {
+          "type": "string"
+        },
+        "assertion_ids": {
+          "$ref": "#/$defs/assertionIds"
+        }
+      }
+    },
+    "assertion": {
+      "allOf": [
+        {
+          "$ref": "https://www.xianmi.co/buddhism/data/schema-core-v0.1.json#/$defs/assertion"
+        },
+        {
+          "properties": {
+            "id": {
+              "$ref": "#/$defs/id"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

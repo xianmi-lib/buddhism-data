@@ -1,0 +1,395 @@
+{
+  "schema_version": "0.1",
+  "dataset_status": "texts_draft",
+  "works": [
+    {
+      "id": "T08n0235",
+      "identity": {
+        "canon": "taisho",
+        "taisho_no": 235,
+        "part": null,
+        "is_multi_part": false,
+        "cbeta_id": "T08n0235",
+        "sc_uid": null,
+        "toh_no": null,
+        "bdrc_work_id": null,
+        "bdrc_part_id": null
+      },
+      "titles": [
+        {
+          "text": "金剛般若波羅蜜經",
+          "lang": "zh",
+          "script": "Hant",
+          "kind": "preferred"
+        },
+        {
+          "text": "金刚般若波罗蜜经",
+          "lang": "zh",
+          "script": "Hans",
+          "kind": "alternate"
+        },
+        {
+          "text": "Vajracchedikā Prajñāpāramitā",
+          "lang": "sa",
+          "script": "Latn",
+          "kind": "transliteration"
+        }
+      ],
+      "creators": [
+        {
+          "name": "鳩摩羅什",
+          "person_ref": "P-B05",
+          "role": "譯",
+          "dynasty": "後秦",
+          "note": "姚秦三藏法師"
+        }
+      ],
+      "creator_raw": "後秦 鳩摩羅什譯",
+      "date": {
+        "start_year": 401,
+        "end_year": 413,
+        "start_month": null,
+        "start_day": null,
+        "end_month": null,
+        "end_day": null,
+        "ongoing": false,
+        "display": "後秦弘始年間（401–413）",
+        "original": "後秦弘始年",
+        "precision": "year_range",
+        "basis": "鳩摩羅什在長安譯出"
+      },
+      "extent": {
+        "display": "1卷",
+        "juan_count": 1,
+        "volume_no": 8,
+        "page_start": "p0748c",
+        "page_end": "p0752c"
+      },
+      "classification": {
+        "category": "般若部",
+        "basket": "經藏",
+        "section": null,
+        "nikaya": null,
+        "grouping_chain": ["大正新脩大藏經", "般若部"]
+      },
+      "extant": true,
+      "extant_note": "存（CBETA 文本庫收錄）",
+      "provenance": {
+        "source_ids": ["S-CBETA-T235"],
+        "evidence_kind": "catalogue_metadata",
+        "note": "大正藏第8冊 No. 235 元數據"
+      },
+      "assertion_ids": [],
+      "notes": "般若系核心經典之一"
+    },
+    {
+      "id": "T01n0021",
+      "identity": {
+        "canon": "taisho",
+        "taisho_no": 21,
+        "part": null,
+        "is_multi_part": false,
+        "cbeta_id": "T01n0021",
+        "sc_uid": null,
+        "toh_no": null,
+        "bdrc_work_id": null,
+        "bdrc_part_id": null
+      },
+      "titles": [
+        {
+          "text": "梵網六十二見經",
+          "lang": "zh",
+          "script": "Hant",
+          "kind": "preferred"
+        },
+        {
+          "text": "梵网六十二见经",
+          "lang": "zh",
+          "script": "Hans",
+          "kind": "alternate"
+        },
+        {
+          "text": "Brahmajāla Sūtra",
+          "lang": "sa",
+          "script": "Latn",
+          "kind": "transliteration"
+        }
+      ],
+      "creators": [
+        {
+          "name": "支謙",
+          "person_ref": null,
+          "role": "譯",
+          "dynasty": "吳",
+          "note": "三國吳月氏優婆塞"
+        }
+      ],
+      "creator_raw": "吳 支謙譯",
+      "date": {
+        "start_year": 222,
+        "end_year": 280,
+        "start_month": null,
+        "start_day": null,
+        "end_month": null,
+        "end_day": null,
+        "ongoing": false,
+        "display": "三國吳時期（222–280）",
+        "original": "三國吳黃武至天紀年間",
+        "precision": "year_range",
+        "basis": "支謙在東吳譯出"
+      },
+      "extent": {
+        "display": "1卷",
+        "juan_count": 1,
+        "volume_no": 1,
+        "page_start": "p0264a18",
+        "page_end": "p0270c06"
+      },
+      "classification": {
+        "category": "阿含部",
+        "basket": "經藏",
+        "section": null,
+        "nikaya": null,
+        "grouping_chain": ["大正新脩大藏經", "阿含部"]
+      },
+      "extant": true,
+      "extant_note": "存（CBETA 文本庫收錄）",
+      "provenance": {
+        "source_ids": ["S-WEB-CBETA"],
+        "evidence_kind": "catalogue_metadata",
+        "note": "大正藏第1冊 No. 21 元數據"
+      },
+      "assertion_ids": [],
+      "notes": "阿含部單譯經，對應巴利長部第1經梵網經"
+    },
+    {
+      "id": "T02n0128a",
+      "identity": {
+        "canon": "taisho",
+        "taisho_no": 128,
+        "part": "a",
+        "is_multi_part": true,
+        "cbeta_id": "T02n0128a",
+        "sc_uid": null,
+        "toh_no": null,
+        "bdrc_work_id": null,
+        "bdrc_part_id": null
+      },
+      "titles": [
+        {
+          "text": "須摩提女經",
+          "lang": "zh",
+          "script": "Hant",
+          "kind": "preferred"
+        }
+      ],
+      "creators": [
+        {
+          "name": "支謙",
+          "person_ref": null,
+          "role": "譯",
+          "dynasty": "吳",
+          "note": null
+        }
+      ],
+      "creator_raw": "吳 支謙譯",
+      "date": null,
+      "extent": {
+        "display": "1卷",
+        "juan_count": 1,
+        "volume_no": 2,
+        "page_start": "p0541b",
+        "page_end": "p0543b"
+      },
+      "classification": {
+        "category": "阿含部",
+        "basket": "經藏",
+        "section": null,
+        "nikaya": null,
+        "grouping_chain": ["阿含部"]
+      },
+      "extant": true,
+      "extant_note": null,
+      "provenance": {
+        "source_ids": ["S-WEB-CBETA"],
+        "evidence_kind": "catalogue_metadata",
+        "note": "一號多件範例：T128 同號有 a/b 兩件"
+      },
+      "assertion_ids": [],
+      "notes": "一號多件第 a 件"
+    },
+    {
+      "id": "SC:dn1",
+      "identity": {
+        "canon": "pali_tipitaka",
+        "taisho_no": null,
+        "part": null,
+        "is_multi_part": false,
+        "cbeta_id": null,
+        "sc_uid": "dn1",
+        "toh_no": null,
+        "bdrc_work_id": null,
+        "bdrc_part_id": null
+      },
+      "titles": [
+        {
+          "text": "Brahmajālasutta",
+          "lang": "pi",
+          "script": "Latn",
+          "kind": "preferred"
+        },
+        {
+          "text": "The Divine Net",
+          "lang": "en",
+          "script": "Latn",
+          "kind": "alternate"
+        },
+        {
+          "text": "梵網六十二見經（巴利本）",
+          "lang": "zh",
+          "script": "Hans",
+          "kind": "alternate"
+        }
+      ],
+      "creators": [],
+      "creator_raw": null,
+      "date": null,
+      "extent": {
+        "display": "PTS 1.1",
+        "juan_count": null,
+        "volume_no": 1,
+        "page_start": "1.1",
+        "page_end": "1.46"
+      },
+      "classification": {
+        "category": "sutta",
+        "basket": "sutta",
+        "section": "Dīghanikāya",
+        "nikaya": "dn",
+        "grouping_chain": ["Suttapiṭaka", "Dīghanikāya", "Sīlakkhandhavagga"]
+      },
+      "extant": true,
+      "extant_note": "巴利三藏在存",
+      "provenance": {
+        "source_ids": ["S-WEB-CBETA"],
+        "evidence_kind": "catalogue_metadata",
+        "note": "SuttaCentral suttaplex 目錄"
+      },
+      "assertion_ids": [],
+      "notes": "長部第一經"
+    },
+    {
+      "id": "TOH:1",
+      "identity": {
+        "canon": "tibetan_kangyur",
+        "taisho_no": null,
+        "part": null,
+        "is_multi_part": false,
+        "cbeta_id": null,
+        "sc_uid": null,
+        "toh_no": "1",
+        "bdrc_work_id": "WA0RK0001",
+        "bdrc_part_id": "MW22084_0001"
+      },
+      "titles": [
+        {
+          "text": "'dul ba gzhi/",
+          "lang": "bo",
+          "script": "Latn",
+          "kind": "preferred"
+        },
+        {
+          "text": "vinayavastu",
+          "lang": "sa",
+          "script": "Latn",
+          "kind": "transliteration"
+        },
+        {
+          "text": "律事（藏譯本）",
+          "lang": "zh",
+          "script": "Hans",
+          "kind": "alternate"
+        }
+      ],
+      "creators": [
+        {
+          "name": "lo tsA ba dpal gyi lhun po/",
+          "person_ref": null,
+          "role": "translator",
+          "dynasty": null,
+          "note": "BDRC P4259"
+        },
+        {
+          "name": "ska ba dpal brtsegs/",
+          "person_ref": null,
+          "role": "translator",
+          "dynasty": null,
+          "note": "BDRC P8182"
+        }
+      ],
+      "creator_raw": "lo tsA ba dpal gyi lhun po, ska ba dpal brtsegs",
+      "date": null,
+      "extent": {
+        "display": "4 vols (pp. 4-605)",
+        "juan_count": null,
+        "volume_no": 1,
+        "page_start": "4",
+        "page_end": "605"
+      },
+      "classification": {
+        "category": "'dul ba/",
+        "basket": "bka' 'gyur",
+        "section": "'dul ba/",
+        "nikaya": null,
+        "grouping_chain": ["甘珠爾", "律部"]
+      },
+      "extant": true,
+      "extant_note": "德格版甘珠爾在錄",
+      "provenance": {
+        "source_ids": ["S-WEB-CBETA"],
+        "evidence_kind": "catalogue_metadata",
+        "note": "BDRC 藏傳大藏經目錄"
+      },
+      "assertion_ids": [],
+      "notes": "藏傳律部第一部"
+    }
+  ],
+  "parallel_links": [
+    {
+      "id": "PLK-SC-DN1-TO-T21",
+      "from_work_ref": "SC:dn1",
+      "to_work_ref": "T01n0021",
+      "link_kind": "full_translation",
+      "from_locator": "dn1",
+      "to_locator": "T01n0021_p0264a18",
+      "bidirectional": false,
+      "provenance": {
+        "source_ids": ["S-WEB-CBETA"],
+        "evidence_kind": "catalogue_metadata",
+        "note": "SuttaCentral 对照经目记录：dn1 full parallel -> t21"
+      },
+      "notes": "巴利長部第1經（Brahmajālasutta）與漢譯大正藏第21部（梵網六十二見經）全本對譯平行對"
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-PRAJNA",
+      "term_zh": "般若",
+      "term_zh_alt": ["波若", "鉢若", "智慧"],
+      "languages": {
+        "sanskrit_iast": "prajñā",
+        "pali": "paññā",
+        "tibetan_wylie": "shes rab"
+      },
+      "gloss_zh": "大智慧、明見真理之智；不同於世俗之小智分別，特指照見諸法實相之空慧",
+      "first_seen_in": "T08n0235",
+      "provenance": {
+        "source_ids": ["S-WEB-CBETA"],
+        "evidence_kind": "catalogue_metadata",
+        "note": "丁福保佛學大辭典 / 佛光大辭典"
+      },
+      "assertion_ids": [],
+      "notes": "六波羅蜜之一"
+    }
+  ]
+}
