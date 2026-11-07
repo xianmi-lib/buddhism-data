@@ -28,6 +28,16 @@
 
 > 显密文库佛教数据库（xianmi.co/buddhism），buddhism-data 快照 <版本或提交号>
 
+### 例外：藏语 Wylie 子集（CC BY-NC-SA 4.0）
+
+> 本数据库总体遵循 CC BY 4.0，其中 `texts-v0.1.json` terms 段标有 `S-DILA-MVP` 来源之 `tibetan_wylie` 藏语字段继承 CC BY-NC-SA 4.0 许可协议分标。
+
+该子集（v0.2 快照为 628 条，按 `provenance.source_ids` 含 `S-DILA-MVP` 机器可过滤）的藏语 Wylie 转写采自**法鼓文理学院（Dharma Drum Institute of Liberal Arts, DILA）佛学规范数据库**所收录之《翻译名义大集》（Mahāvyutpatti）TEI 数字化版本，许可与义务如下：
+
+- **许可**：CC BY-NC-SA 4.0（知识共享「署名-非商业性使用-相同方式共享 4.0 国际」；底本为 9 世纪梵藏汉古典辞书，属公有领域）。再分发该子集或含其衍生的数据库、以及商业性使用，须遵守其 NC（非商业性）与 SA（相同方式共享）条款。
+- **署名（中文）**：藏语术语（Wylie）对照数据采自法鼓文理学院佛学规范数据库所收录之《翻译名义大集》（Mahāvyutpatti）TEI 数字化版本，依 CC BY-NC-SA 4.0 许可协议再利用。感谢法鼓文理学院（DILA）之数字化贡献。
+- **署名（英文）**：Tibetan Wylie terminology equivalents in `texts-v0.1.json` are sourced from the Mahāvyutpatti TEI P5 digital edition published by the Dharma Drum Institute of Liberal Arts (DILA) Buddhist Authority Database (https://glossaries.dila.edu.tw/), licensed under CC BY-NC-SA 4.0. We gratefully acknowledge DILA's contribution to Buddhist digital humanities.
+
 ## 版本与更新
 
 本仓为**发布快照仓**：主开发仓持续集成，达到里程碑后在此落版本化快照。后续快照带 git tag 与变更说明。
