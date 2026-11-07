@@ -30,4 +30,13 @@
 
 ## 版本与更新
 
-本仓为**发布快照仓**：主开发仓持续集成，达到里程碑后在此落版本化快照。首发快照 v0.1（2026-11-03）。后续快照将带 git tag 与变更说明。
+本仓为**发布快照仓**：主开发仓持续集成，达到里程碑后在此落版本化快照。后续快照带 git tag 与变更说明。
+
+- **v0.2（2026-11-07，同步自主开发仓 0af5ff3）**：Core 身份合并收口（89 对重复身份吸收）与文本日期修复；新增 `periods-v0.1.json`。逐文件变更：
+    - `core-v0.1.json`：人物 4,396→4,397、来源 299→300；`deprecated` 67→160（absorbed 110 · misextracted_residue 48 · orphan_stub 2）；人物新增 `active_period`（1,248 人）
+    - `texts-v0.1.json`：藏语 Wylie 非空 62→690（其中 `S-DILA-MVP` 来源 628 条，许可见「许可」节）；经目/对照/术语总数不变（16,017 / 3,442 / 5,030）
+    - `history-v0.1.json`：关系 1,863→1,861、断言 2,181→2,179（身份合并的回填）
+    - `schema-core-v0.1.json`：新增 `activePeriod` 定义与 `person.active_period` 字段
+    - `periods-v0.1.json`：**新增**，90 条区域历史时期参照表（人物 `active_period` 的共用基座；无独立 JSON Schema，由发布管线参照表校验，`activePeriod` 定义住 `schema-core`）
+    - 其余 8 个文件（backbone / chronology / samples×2 / schema-atlas / schema-chronology / schema-history / schema-texts）与 v0.1 逐字节相同
+- **v0.1（2026-11-03）**：首发快照（Core/Texts/History/Chronology 四包 + 5 份 Schema + backbone/samples）。

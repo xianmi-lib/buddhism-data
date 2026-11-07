@@ -2755,9 +2755,9 @@
         },
         {
           "name": "杜顺（法顺）",
-          "person_ref": "P-2465",
+          "person_ref": "P-0179",
           "claim": "traditional_account",
-          "note": "传统初祖（FGD 华严宗条：以唐代杜顺禅师 557–640 为初祖）"
+          "note": "传统初祖（FGD 华严宗条：以唐代杜顺禅师 557–640 为初祖）（fix-round1：实体合并，person_ref 改挂幸存者）"
         },
         {
           "name": "杜顺初祖说为后人构造",
@@ -11135,7 +11135,7 @@
       "id": "R-LIN-0047",
       "type": "translation_collaborator",
       "from_ref": "P-B41",
-      "to_ref": "P-2928",
+      "to_ref": "P-B27",
       "valid_time": null,
       "qualifier": "角色：筆受；原文：「初，跋澄又齎梵本自隨，明年，趙正復請出之，跋澄乃與曇摩難提及僧伽提婆三人共執梵本，秦沙門佛念宣譯，慧嵩筆受，安公、法和對共校定，故二經流布，傳學迄今。」（对称关系，from/to 取文本先现）",
       "assertion_ids": [
@@ -11168,7 +11168,7 @@
       "id": "R-LIN-0050",
       "type": "translation_collaborator",
       "from_ref": "P-B26",
-      "to_ref": "P-4035",
+      "to_ref": "P-B27",
       "valid_time": null,
       "qualifier": "角色：筆受；原文：「涼州沙門竺佛念譯為秦言，道含筆受。」（对称关系，from/to 取文本先现）",
       "assertion_ids": [
@@ -11973,7 +11973,7 @@
     {
       "id": "R-LIN-0120",
       "type": "teacher_of",
-      "from_ref": "P-4033",
+      "from_ref": "P-2674",
       "to_ref": "P-2679",
       "valid_time": null,
       "qualifier": "原文：「」澄月望將入覲虎，謂弟子僧慧曰：「昨夜天神呼我曰：『明日若入，還勿過人。」",
@@ -16391,33 +16391,10 @@
       ]
     },
     {
-      "id": "R-LIN-0368",
-      "type": "translation_collaborator",
-      "from_ref": "P-0178",
-      "to_ref": "P-3430",
-      "valid_time": {
-        "start_year": 618,
-        "end_year": 907,
-        "start_month": null,
-        "start_day": null,
-        "end_month": null,
-        "end_day": null,
-        "ongoing": false,
-        "display": "唐（朝代包络 618–907，非卒年/传法年）",
-        "original": "唐",
-        "precision": "estimated_range",
-        "basis": "采集层 era=唐（T50n2061 传题/证据句朝代字）；包络取纪年库 regime 唐朝 年号数据（618–907）；朝代包络非卒年/传法年"
-      },
-      "qualifier": "角色：筆受+證義+度語+同譯；原文：「八年，上表舉慧翻傳，有勅令京城諸寺大德名業殊眾者同譯，得罽賓三藏般若開釋梵本，翰林待詔光宅寺沙門利言度語，西明寺沙門圓照筆受，資聖寺道液、西明寺良秀、莊嚴寺應真、醴泉寺超悟、道岸、辯空，並充證義。」（对称关系，from/to 取文本先现）",
-      "assertion_ids": [
-        "A-I7-T50N2061-00352"
-      ]
-    },
-    {
       "id": "R-LIN-0369",
       "type": "translation_collaborator",
-      "from_ref": "P-0178",
-      "to_ref": "P-3058",
+      "from_ref": "P-B30",
+      "to_ref": "P-0292",
       "valid_time": {
         "start_year": 618,
         "end_year": 907,
@@ -16439,7 +16416,7 @@
     {
       "id": "R-LIN-0370",
       "type": "translation_collaborator",
-      "from_ref": "P-0178",
+      "from_ref": "P-B30",
       "to_ref": "P-0117",
       "valid_time": {
         "start_year": 618,
@@ -16649,17 +16626,17 @@
       "from_ref": "P-0068",
       "to_ref": "P-3519",
       "valid_time": {
-        "start_year": 951,
-        "end_year": 960,
+        "start_year": 618,
+        "end_year": 907,
         "start_month": null,
         "start_day": null,
         "end_month": null,
         "end_day": null,
         "ongoing": false,
-        "display": "周（朝代包络 951–960，非卒年/传法年）",
+        "display": "周（朝代包络 618–907，非卒年/传法年）",
         "original": "周",
         "precision": "estimated_range",
-        "basis": "采集层 era=周（T50n2061 传题/证据句朝代字）；包络取纪年库 regime 後周 年号数据（951–960）；朝代包络非卒年/传法年"
+        "basis": "采集层 era=周（T50n2061 传题/证据句朝代字）；包络取纪年库 regime 唐朝 年号数据（618–907）；朝代包络非卒年/传法年；fix-round1 记录级消歧：宋传卷2/卷4「周」指武周前后（出处注记见 ERA_REGIME_RECORD_OVERRIDES）"
       },
       "qualifier": "角色：譯語；原文：「至天后垂拱末，於兩京東西太原寺，及西京廣福寺，譯、等凡一十八部，沙門戰陀、般若提婆譯語，沙門慧智證梵語。」（对称关系，from/to 取文本先现）",
       "assertion_ids": [
@@ -16672,17 +16649,17 @@
       "from_ref": "P-0068",
       "to_ref": "P-0223",
       "valid_time": {
-        "start_year": 951,
-        "end_year": 960,
+        "start_year": 618,
+        "end_year": 907,
         "start_month": null,
         "start_day": null,
         "end_month": null,
         "end_day": null,
         "ongoing": false,
-        "display": "周（朝代包络 951–960，非卒年/传法年）",
+        "display": "周（朝代包络 618–907，非卒年/传法年）",
         "original": "周",
         "precision": "estimated_range",
-        "basis": "采集层 era=周（T50n2061 传题/证据句朝代字）；包络取纪年库 regime 後周 年号数据（951–960）；朝代包络非卒年/传法年"
+        "basis": "采集层 era=周（T50n2061 传题/证据句朝代字）；包络取纪年库 regime 唐朝 年号数据（618–907）；朝代包络非卒年/传法年；fix-round1 记录级消歧：宋传卷2/卷4「周」指武周前后（出处注记见 ERA_REGIME_RECORD_OVERRIDES）"
       },
       "qualifier": "角色：譯語；原文：「至天后垂拱末，於兩京東西太原寺，及西京廣福寺，譯、等凡一十八部，沙門戰陀、般若提婆譯語，沙門慧智證梵語。」（对称关系，from/to 取文本先现）",
       "assertion_ids": [
@@ -16695,17 +16672,17 @@
       "from_ref": "P-0068",
       "to_ref": "P-2812",
       "valid_time": {
-        "start_year": 951,
-        "end_year": 960,
+        "start_year": 618,
+        "end_year": 907,
         "start_month": null,
         "start_day": null,
         "end_month": null,
         "end_day": null,
         "ongoing": false,
-        "display": "周（朝代包络 951–960，非卒年/传法年）",
+        "display": "周（朝代包络 618–907，非卒年/传法年）",
         "original": "周",
         "precision": "estimated_range",
-        "basis": "采集层 era=周（T50n2061 传题/证据句朝代字）；包络取纪年库 regime 後周 年号数据（951–960）；朝代包络非卒年/传法年"
+        "basis": "采集层 era=周（T50n2061 传题/证据句朝代字）；包络取纪年库 regime 唐朝 年号数据（618–907）；朝代包络非卒年/传法年；fix-round1 记录级消歧：宋传卷2/卷4「周」指武周前后（出处注记见 ERA_REGIME_RECORD_OVERRIDES）"
       },
       "qualifier": "角色：筆受+證義+綴文；原文：「勅諸名德助其法化，沙門道成、薄塵、嘉尚、圓測、靈辯、明恂、懷度證義，沙門思玄、復禮綴文筆受，天后親敷叡藻，製序冠首焉。」（对称关系，from/to 取文本先现）",
       "assertion_ids": [
@@ -16718,17 +16695,17 @@
       "from_ref": "P-0068",
       "to_ref": "P-3456",
       "valid_time": {
-        "start_year": 951,
-        "end_year": 960,
+        "start_year": 618,
+        "end_year": 907,
         "start_month": null,
         "start_day": null,
         "end_month": null,
         "end_day": null,
         "ongoing": false,
-        "display": "周（朝代包络 951–960，非卒年/传法年）",
+        "display": "周（朝代包络 618–907，非卒年/传法年）",
         "original": "周",
         "precision": "estimated_range",
-        "basis": "采集层 era=周（T50n2061 传题/证据句朝代字）；包络取纪年库 regime 後周 年号数据（951–960）；朝代包络非卒年/传法年"
+        "basis": "采集层 era=周（T50n2061 传题/证据句朝代字）；包络取纪年库 regime 唐朝 年号数据（618–907）；朝代包络非卒年/传法年；fix-round1 记录级消歧：宋传卷2/卷4「周」指武周前后（出处注记见 ERA_REGIME_RECORD_OVERRIDES）"
       },
       "qualifier": "角色：筆受+證義+綴文；原文：「勅諸名德助其法化，沙門道成、薄塵、嘉尚、圓測、靈辯、明恂、懷度證義，沙門思玄、復禮綴文筆受，天后親敷叡藻，製序冠首焉。」（对称关系，from/to 取文本先现）",
       "assertion_ids": [
@@ -16741,17 +16718,17 @@
       "from_ref": "P-0100",
       "to_ref": "P-3168",
       "valid_time": {
-        "start_year": 951,
-        "end_year": 960,
+        "start_year": 618,
+        "end_year": 907,
         "start_month": null,
         "start_day": null,
         "end_month": null,
         "end_day": null,
         "ongoing": false,
-        "display": "周（朝代包络 951–960，非卒年/传法年）",
+        "display": "周（朝代包络 618–907，非卒年/传法年）",
         "original": "周",
         "precision": "estimated_range",
-        "basis": "采集层 era=周（T50n2061 传题/证据句朝代字）；包络取纪年库 regime 後周 年号数据（951–960）；朝代包络非卒年/传法年"
+        "basis": "采集层 era=周（T50n2061 传题/证据句朝代字）；包络取纪年库 regime 唐朝 年号数据（618–907）；朝代包络非卒年/传法年；fix-round1 记录级消歧：宋传卷2/卷4「周」指武周前后（出处注记见 ERA_REGIME_RECORD_OVERRIDES）"
       },
       "qualifier": "角色：筆受+證義+綴文；原文：「即以其年己丑至天授二年辛卯，出、等六部七卷，沙門處一筆受，沙門復禮綴文，沙門德感、慧儼、法明、恒景等證義。」（对称关系，from/to 取文本先现）",
       "assertion_ids": [
@@ -16764,44 +16741,21 @@
       "from_ref": "P-0100",
       "to_ref": "P-3431",
       "valid_time": {
-        "start_year": 951,
-        "end_year": 960,
+        "start_year": 618,
+        "end_year": 907,
         "start_month": null,
         "start_day": null,
         "end_month": null,
         "end_day": null,
         "ongoing": false,
-        "display": "周（朝代包络 951–960，非卒年/传法年）",
+        "display": "周（朝代包络 618–907，非卒年/传法年）",
         "original": "周",
         "precision": "estimated_range",
-        "basis": "采集层 era=周（T50n2061 传题/证据句朝代字）；包络取纪年库 regime 後周 年号数据（951–960）；朝代包络非卒年/传法年"
+        "basis": "采集层 era=周（T50n2061 传题/证据句朝代字）；包络取纪年库 regime 唐朝 年号数据（618–907）；朝代包络非卒年/传法年；fix-round1 记录级消歧：宋传卷2/卷4「周」指武周前后（出处注记见 ERA_REGIME_RECORD_OVERRIDES）"
       },
       "qualifier": "角色：筆受+證義+綴文；原文：「即以其年己丑至天授二年辛卯，出、等六部七卷，沙門處一筆受，沙門復禮綴文，沙門德感、慧儼、法明、恒景等證義。」（对称关系，from/to 取文本先现）",
       "assertion_ids": [
         "A-I7-T50N2061-00368"
-      ]
-    },
-    {
-      "id": "R-LIN-0385",
-      "type": "translation_collaborator",
-      "from_ref": "P-3750",
-      "to_ref": "P-3677",
-      "valid_time": {
-        "start_year": 951,
-        "end_year": 960,
-        "start_month": null,
-        "start_day": null,
-        "end_month": null,
-        "end_day": null,
-        "ongoing": false,
-        "display": "周（朝代包络 951–960，非卒年/传法年）",
-        "original": "周",
-        "precision": "estimated_range",
-        "basis": "采集层 era=周（T50n2061 传题/证据句朝代字）；包络取纪年库 regime 後周 年号数据（951–960）；朝代包络非卒年/传法年"
-      },
-      "qualifier": "角色：刊定；原文：「天冊萬歲元年，勅令刊定經目，佺所專纂錄，編次持疑，更與翻經大德二十餘人同共參正，號曰焉。」（对称关系，from/to 取文本先现）",
-      "assertion_ids": [
-        "A-I7-T50N2061-00369"
       ]
     },
     {
@@ -17107,7 +17061,7 @@
       "id": "R-LIN-0399",
       "type": "translation_collaborator",
       "from_ref": "P-0086",
-      "to_ref": "P-3583",
+      "to_ref": "P-0440",
       "valid_time": {
         "start_year": 618,
         "end_year": 907,
@@ -17155,17 +17109,17 @@
       "from_ref": "P-3510",
       "to_ref": "P-2973",
       "valid_time": {
-        "start_year": 951,
-        "end_year": 960,
+        "start_year": 618,
+        "end_year": 907,
         "start_month": null,
         "start_day": null,
         "end_month": null,
         "end_day": null,
         "ongoing": false,
-        "display": "周（朝代包络 951–960，非卒年/传法年）",
+        "display": "周（朝代包络 618–907，非卒年/传法年）",
         "original": "周",
         "precision": "estimated_range",
-        "basis": "采集层 era=周（T50n2061 传题/证据句朝代字）；包络取纪年库 regime 後周 年号数据（951–960）；朝代包络非卒年/传法年"
+        "basis": "采集层 era=周（T50n2061 传题/证据句朝代字）；包络取纪年库 regime 唐朝 年号数据（618–907）；朝代包络非卒年/传法年；fix-round1 记录级消歧：宋传卷2/卷4「周」指武周前后（出处注记见 ERA_REGIME_RECORD_OVERRIDES）"
       },
       "qualifier": "角色：得戒师；原文：「暨嚴公長往，乃依慧詡禪師受具足戒，聽常樂寺聰法師三，甚深無相，疑滯豁除，方便解脫，怡然獨悟。」",
       "assertion_ids": [
@@ -18272,7 +18226,7 @@
     {
       "id": "R-LIN-0457",
       "type": "dharma_heir",
-      "from_ref": "P-2557",
+      "from_ref": "P-2827",
       "to_ref": "P-2688",
       "valid_time": null,
       "qualifier": "原文：「杭州鹽官齊安禪師法嗣八人，襄州關南道常禪師」",
@@ -18283,7 +18237,7 @@
     {
       "id": "R-LIN-0458",
       "type": "dharma_heir",
-      "from_ref": "P-2557",
+      "from_ref": "P-2827",
       "to_ref": "P-3924",
       "valid_time": null,
       "qualifier": "原文：「杭州鹽官齊安禪師法嗣八人，洪州雙嶺玄真禪師」",
@@ -18294,7 +18248,7 @@
     {
       "id": "R-LIN-0459",
       "type": "dharma_heir",
-      "from_ref": "P-2557",
+      "from_ref": "P-2827",
       "to_ref": "P-2588",
       "valid_time": null,
       "qualifier": "原文：「杭州鹽官齊安禪師法嗣八人，杭州徑山鑒宗禪師」",
@@ -18305,7 +18259,7 @@
     {
       "id": "R-LIN-0460",
       "type": "dharma_heir",
-      "from_ref": "P-2557",
+      "from_ref": "P-2827",
       "to_ref": "P-3128",
       "valid_time": null,
       "qualifier": "原文：「杭州鹽官齊安禪師法嗣八人，唐宣宗皇帝」",
@@ -18316,7 +18270,7 @@
     {
       "id": "R-LIN-0461",
       "type": "dharma_heir",
-      "from_ref": "P-2557",
+      "from_ref": "P-2827",
       "to_ref": "P-3848",
       "valid_time": null,
       "qualifier": "原文：「杭州鹽官齊安禪師法嗣八人，潞府淥水文舉禪師」",
@@ -18327,7 +18281,7 @@
     {
       "id": "R-LIN-0462",
       "type": "dharma_heir",
-      "from_ref": "P-2557",
+      "from_ref": "P-2827",
       "to_ref": "P-3572",
       "valid_time": null,
       "qualifier": "原文：「杭州鹽官齊安禪師法嗣八人，新羅品日禪師」",
@@ -18338,7 +18292,7 @@
     {
       "id": "R-LIN-0463",
       "type": "dharma_heir",
-      "from_ref": "P-2557",
+      "from_ref": "P-2827",
       "to_ref": "P-3398",
       "valid_time": null,
       "qualifier": "原文：「杭州鹽官齊安禪師法嗣八人，壽州建宗禪師」",
@@ -18724,7 +18678,7 @@
       "id": "R-LIN-0498",
       "type": "dharma_heir",
       "from_ref": "P-0208",
-      "to_ref": "P-3130",
+      "to_ref": "P-0919",
       "valid_time": null,
       "qualifier": "原文：「紫玉山道通禪師法嗣一人，唐襄州節度使于頔」",
       "assertion_ids": [
@@ -20153,7 +20107,7 @@
     {
       "id": "R-LIN-0628",
       "type": "dharma_heir",
-      "from_ref": "P-2546",
+      "from_ref": "P-3675",
       "to_ref": "P-0438",
       "valid_time": null,
       "qualifier": "原文：「鄧州香嚴智閑禪師法嗣一十二人，壽州紹宗禪師」",
@@ -20164,7 +20118,7 @@
     {
       "id": "R-LIN-0629",
       "type": "dharma_heir",
-      "from_ref": "P-2546",
+      "from_ref": "P-3675",
       "to_ref": "P-2719",
       "valid_time": null,
       "qualifier": "原文：「鄧州香嚴智閑禪師法嗣一十二人，襄州延慶法端禪師」",
@@ -20175,7 +20129,7 @@
     {
       "id": "R-LIN-0630",
       "type": "dharma_heir",
-      "from_ref": "P-2546",
+      "from_ref": "P-3675",
       "to_ref": "P-4002",
       "valid_time": null,
       "qualifier": "原文：「鄧州香嚴智閑禪師法嗣一十二人，益州南禪無染禪師」",
@@ -20186,7 +20140,7 @@
     {
       "id": "R-LIN-0631",
       "type": "dharma_heir",
-      "from_ref": "P-2546",
+      "from_ref": "P-3675",
       "to_ref": "P-4250",
       "valid_time": null,
       "qualifier": "原文：「鄧州香嚴智閑禪師法嗣一十二人，益州長平山和尚」",
@@ -20197,7 +20151,7 @@
     {
       "id": "R-LIN-0632",
       "type": "dharma_heir",
-      "from_ref": "P-2546",
+      "from_ref": "P-3675",
       "to_ref": "P-3331",
       "valid_time": null,
       "qualifier": "原文：「鄧州香嚴智閑禪師法嗣一十二人，益州崇福演教大師」",
@@ -20208,7 +20162,7 @@
     {
       "id": "R-LIN-0633",
       "type": "dharma_heir",
-      "from_ref": "P-2546",
+      "from_ref": "P-3675",
       "to_ref": "P-3832",
       "valid_time": null,
       "qualifier": "原文：「鄧州香嚴智閑禪師法嗣一十二人，安州大安山清幹禪師」",
@@ -20219,7 +20173,7 @@
     {
       "id": "R-LIN-0634",
       "type": "dharma_heir",
-      "from_ref": "P-2546",
+      "from_ref": "P-3675",
       "to_ref": "P-3160",
       "valid_time": null,
       "qualifier": "原文：「鄧州香嚴智閑禪師法嗣一十二人，均州武當山佛巖暉禪師」",
@@ -20230,7 +20184,7 @@
     {
       "id": "R-LIN-0635",
       "type": "dharma_heir",
-      "from_ref": "P-2546",
+      "from_ref": "P-3675",
       "to_ref": "P-3098",
       "valid_time": null,
       "qualifier": "原文：「鄧州香嚴智閑禪師法嗣一十二人，江州雙谿田道者」",
@@ -20241,7 +20195,7 @@
     {
       "id": "R-LIN-0636",
       "type": "dharma_heir",
-      "from_ref": "P-2546",
+      "from_ref": "P-3675",
       "to_ref": "P-3970",
       "valid_time": null,
       "qualifier": "原文：「鄧州香嚴智閑禪師法嗣一十二人，睦州東禪和尚」",
@@ -20736,7 +20690,7 @@
     {
       "id": "R-LIN-0681",
       "type": "dharma_heir",
-      "from_ref": "P-2573",
+      "from_ref": "P-0260",
       "to_ref": "P-2787",
       "valid_time": null,
       "qualifier": "原文：「南陽慧忠國師法嗣五人，吉州耽源山真應禪師」",
@@ -20747,7 +20701,7 @@
     {
       "id": "R-LIN-0682",
       "type": "dharma_heir",
-      "from_ref": "P-2573",
+      "from_ref": "P-0260",
       "to_ref": "P-3129",
       "valid_time": null,
       "qualifier": "原文：「南陽慧忠國師法嗣五人，唐肅宗皇帝」",
@@ -20758,7 +20712,7 @@
     {
       "id": "R-LIN-0683",
       "type": "dharma_heir",
-      "from_ref": "P-2573",
+      "from_ref": "P-0260",
       "to_ref": "P-3127",
       "valid_time": {
         "start_year": 618,
@@ -20781,7 +20735,7 @@
     {
       "id": "R-LIN-0684",
       "type": "dharma_heir",
-      "from_ref": "P-2573",
+      "from_ref": "P-0260",
       "to_ref": "P-3404",
       "valid_time": null,
       "qualifier": "原文：「南陽慧忠國師法嗣五人，開封孫知古」",
@@ -20792,7 +20746,7 @@
     {
       "id": "R-LIN-0685",
       "type": "dharma_heir",
-      "from_ref": "P-2573",
+      "from_ref": "P-0260",
       "to_ref": "P-4286",
       "valid_time": null,
       "qualifier": "原文：「南陽慧忠國師法嗣五人，鄧州香嚴惟戒禪師」",
@@ -21112,7 +21066,7 @@
       "id": "R-LIN-0714",
       "type": "dharma_heir",
       "from_ref": "P-2658",
-      "to_ref": "P-2551",
+      "to_ref": "P-0075",
       "valid_time": null,
       "qualifier": "原文：「遂州道圓禪師法嗣一人見錄，終南山圭峯宗密禪師」",
       "assertion_ids": [
@@ -21155,7 +21109,7 @@
     {
       "id": "R-LIN-0718",
       "type": "dharma_heir",
-      "from_ref": "P-2551",
+      "from_ref": "P-0075",
       "to_ref": "P-2703",
       "valid_time": null,
       "qualifier": "原文：「圭峯宗密禪師法嗣，圭峯溫禪師」",
@@ -21166,7 +21120,7 @@
     {
       "id": "R-LIN-0719",
       "type": "dharma_heir",
-      "from_ref": "P-2551",
+      "from_ref": "P-0075",
       "to_ref": "P-3237",
       "valid_time": null,
       "qualifier": "原文：「圭峯宗密禪師法嗣，慈恩寺太恭禪師」",
@@ -21177,7 +21131,7 @@
     {
       "id": "R-LIN-0720",
       "type": "dharma_heir",
-      "from_ref": "P-2551",
+      "from_ref": "P-0075",
       "to_ref": "P-3239",
       "valid_time": null,
       "qualifier": "原文：「圭峯宗密禪師法嗣，興善寺太錫禪師」",
@@ -21188,7 +21142,7 @@
     {
       "id": "R-LIN-0721",
       "type": "dharma_heir",
-      "from_ref": "P-2551",
+      "from_ref": "P-0075",
       "to_ref": "P-2829",
       "valid_time": null,
       "qualifier": "原文：「圭峯宗密禪師法嗣，萬乘寺宗禪師」",
@@ -21199,7 +21153,7 @@
     {
       "id": "R-LIN-0722",
       "type": "dharma_heir",
-      "from_ref": "P-2551",
+      "from_ref": "P-0075",
       "to_ref": "P-3934",
       "valid_time": null,
       "qualifier": "原文：「圭峯宗密禪師法嗣，瑞聖寺覺禪師」",
@@ -21210,7 +21164,7 @@
     {
       "id": "R-LIN-0723",
       "type": "dharma_heir",
-      "from_ref": "P-2551",
+      "from_ref": "P-0075",
       "to_ref": "P-2907",
       "valid_time": null,
       "qualifier": "原文：「圭峯宗密禪師法嗣，化度寺仁瑜禪師」",
@@ -21276,7 +21230,7 @@
     {
       "id": "R-LIN-0729",
       "type": "dharma_heir",
-      "from_ref": "P-2520",
+      "from_ref": "P-2563",
       "to_ref": "P-2811",
       "valid_time": null,
       "qualifier": "原文：「南嶽石頭希遷大師法嗣二十一人，荊州天皇寺道悟禪師」",
@@ -21287,7 +21241,7 @@
     {
       "id": "R-LIN-0730",
       "type": "dharma_heir",
-      "from_ref": "P-2520",
+      "from_ref": "P-2563",
       "to_ref": "P-2998",
       "valid_time": null,
       "qualifier": "原文：「南嶽石頭希遷大師法嗣二十一人，京兆尸利禪師」",
@@ -21298,7 +21252,7 @@
     {
       "id": "R-LIN-0731",
       "type": "dharma_heir",
-      "from_ref": "P-2520",
+      "from_ref": "P-2563",
       "to_ref": "P-2548",
       "valid_time": null,
       "qualifier": "原文：「南嶽石頭希遷大師法嗣二十一人，鄧州丹霞山天然禪師」",
@@ -21309,7 +21263,7 @@
     {
       "id": "R-LIN-0732",
       "type": "dharma_heir",
-      "from_ref": "P-2520",
+      "from_ref": "P-2563",
       "to_ref": "P-0163",
       "valid_time": null,
       "qualifier": "原文：「南嶽石頭希遷大師法嗣二十一人，潭州招提寺慧朗禪師」",
@@ -21320,7 +21274,7 @@
     {
       "id": "R-LIN-0733",
       "type": "dharma_heir",
-      "from_ref": "P-2520",
+      "from_ref": "P-2563",
       "to_ref": "P-2744",
       "valid_time": null,
       "qualifier": "原文：「南嶽石頭希遷大師法嗣二十一人，長沙興國寺振朗禪師」",
@@ -21331,7 +21285,7 @@
     {
       "id": "R-LIN-0734",
       "type": "dharma_heir",
-      "from_ref": "P-2520",
+      "from_ref": "P-2563",
       "to_ref": "P-2543",
       "valid_time": null,
       "qualifier": "原文：「南嶽石頭希遷大師法嗣二十一人，澧州藥山惟儼禪師」",
@@ -21342,7 +21296,7 @@
     {
       "id": "R-LIN-0735",
       "type": "dharma_heir",
-      "from_ref": "P-2520",
+      "from_ref": "P-2563",
       "to_ref": "P-2622",
       "valid_time": null,
       "qualifier": "原文：「南嶽石頭希遷大師法嗣二十一人，潭州大川和尚」",
@@ -21353,7 +21307,7 @@
     {
       "id": "R-LIN-0736",
       "type": "dharma_heir",
-      "from_ref": "P-2520",
+      "from_ref": "P-2563",
       "to_ref": "P-3976",
       "valid_time": null,
       "qualifier": "原文：「南嶽石頭希遷大師法嗣二十一人，汾州石樓和尚」",
@@ -21364,7 +21318,7 @@
     {
       "id": "R-LIN-0737",
       "type": "dharma_heir",
-      "from_ref": "P-2520",
+      "from_ref": "P-2563",
       "to_ref": "P-2930",
       "valid_time": null,
       "qualifier": "原文：「南嶽石頭希遷大師法嗣二十一人，鳳翔法門寺佛陀和尚」",
@@ -21375,7 +21329,7 @@
     {
       "id": "R-LIN-0738",
       "type": "dharma_heir",
-      "from_ref": "P-2520",
+      "from_ref": "P-2563",
       "to_ref": "P-3074",
       "valid_time": null,
       "qualifier": "原文：「南嶽石頭希遷大師法嗣二十一人，潭州華林和尚」",
@@ -21386,7 +21340,7 @@
     {
       "id": "R-LIN-0739",
       "type": "dharma_heir",
-      "from_ref": "P-2520",
+      "from_ref": "P-2563",
       "to_ref": "P-2623",
       "valid_time": null,
       "qualifier": "原文：「南嶽石頭希遷大師法嗣二十一人，潮州大顛和尚」",
@@ -21397,7 +21351,7 @@
     {
       "id": "R-LIN-0740",
       "type": "dharma_heir",
-      "from_ref": "P-2520",
+      "from_ref": "P-2563",
       "to_ref": "P-2817",
       "valid_time": null,
       "qualifier": "原文：「南嶽石頭希遷大師法嗣二十一人，潭州長髭曠禪師」",
@@ -21408,7 +21362,7 @@
     {
       "id": "R-LIN-0741",
       "type": "dharma_heir",
-      "from_ref": "P-2520",
+      "from_ref": "P-2563",
       "to_ref": "P-3726",
       "valid_time": null,
       "qualifier": "原文：「南嶽石頭希遷大師法嗣二十一人，水空和尚」",
@@ -21419,7 +21373,7 @@
     {
       "id": "R-LIN-0742",
       "type": "dharma_heir",
-      "from_ref": "P-2520",
+      "from_ref": "P-2563",
       "to_ref": "P-3305",
       "valid_time": null,
       "qualifier": "原文：「南嶽石頭希遷大師法嗣二十一人，寶通禪師」",
@@ -21430,7 +21384,7 @@
     {
       "id": "R-LIN-0743",
       "type": "dharma_heir",
-      "from_ref": "P-2520",
+      "from_ref": "P-2563",
       "to_ref": "P-3203",
       "valid_time": null,
       "qualifier": "原文：「南嶽石頭希遷大師法嗣二十一人，海陵大辯禪師」",
@@ -21441,7 +21395,7 @@
     {
       "id": "R-LIN-0744",
       "type": "dharma_heir",
-      "from_ref": "P-2520",
+      "from_ref": "P-2563",
       "to_ref": "P-3850",
       "valid_time": null,
       "qualifier": "原文：「南嶽石頭希遷大師法嗣二十一人，渚涇和尚」",
@@ -21452,7 +21406,7 @@
     {
       "id": "R-LIN-0745",
       "type": "dharma_heir",
-      "from_ref": "P-2520",
+      "from_ref": "P-2563",
       "to_ref": "P-4221",
       "valid_time": null,
       "qualifier": "原文：「南嶽石頭希遷大師法嗣二十一人，衡州道詵禪師」",
@@ -21463,7 +21417,7 @@
     {
       "id": "R-LIN-0746",
       "type": "dharma_heir",
-      "from_ref": "P-2520",
+      "from_ref": "P-2563",
       "to_ref": "P-3352",
       "valid_time": null,
       "qualifier": "原文：「南嶽石頭希遷大師法嗣二十一人，漢州常清禪師」",
@@ -21474,7 +21428,7 @@
     {
       "id": "R-LIN-0747",
       "type": "dharma_heir",
-      "from_ref": "P-2520",
+      "from_ref": "P-2563",
       "to_ref": "P-3984",
       "valid_time": null,
       "qualifier": "原文：「南嶽石頭希遷大師法嗣二十一人，福州碎石和尚」",
@@ -21485,7 +21439,7 @@
     {
       "id": "R-LIN-0748",
       "type": "dharma_heir",
-      "from_ref": "P-2520",
+      "from_ref": "P-2563",
       "to_ref": "P-3131",
       "valid_time": null,
       "qualifier": "原文：「南嶽石頭希遷大師法嗣二十一人，商州商嶺和尚」",
@@ -21496,7 +21450,7 @@
     {
       "id": "R-LIN-0749",
       "type": "dharma_heir",
-      "from_ref": "P-2520",
+      "from_ref": "P-2563",
       "to_ref": "P-2852",
       "valid_time": null,
       "qualifier": "原文：「南嶽石頭希遷大師法嗣二十一人，常州義興和尚」",
@@ -21507,7 +21461,7 @@
     {
       "id": "R-LIN-0750",
       "type": "dharma_heir",
-      "from_ref": "P-3222",
+      "from_ref": "P-2811",
       "to_ref": "P-2667",
       "valid_time": null,
       "qualifier": "原文：「荊州天皇道悟禪師法嗣一人，澧州龍潭崇信禪師」",
@@ -21519,7 +21473,7 @@
       "id": "R-LIN-0751",
       "type": "dharma_heir",
       "from_ref": "P-2548",
-      "to_ref": "P-2571",
+      "to_ref": "P-3591",
       "valid_time": null,
       "qualifier": "原文：「鄧州丹霞山天然禪師法嗣七人，京兆翠微無學禪師」",
       "assertion_ids": [
@@ -21782,7 +21736,7 @@
     {
       "id": "R-LIN-0775",
       "type": "dharma_heir",
-      "from_ref": "P-2571",
+      "from_ref": "P-3591",
       "to_ref": "P-2673",
       "valid_time": null,
       "qualifier": "原文：「京兆翠微無學禪師法嗣五人，鄂州清平山令遵禪師」",
@@ -21793,7 +21747,7 @@
     {
       "id": "R-LIN-0776",
       "type": "dharma_heir",
-      "from_ref": "P-2571",
+      "from_ref": "P-3591",
       "to_ref": "P-2529",
       "valid_time": null,
       "qualifier": "原文：「京兆翠微無學禪師法嗣五人，舒州投子山大同禪師」",
@@ -21804,7 +21758,7 @@
     {
       "id": "R-LIN-0777",
       "type": "dharma_heir",
-      "from_ref": "P-2571",
+      "from_ref": "P-3591",
       "to_ref": "P-3259",
       "valid_time": null,
       "qualifier": "原文：「京兆翠微無學禪師法嗣五人，湖州道場山如訥禪師」",
@@ -21815,7 +21769,7 @@
     {
       "id": "R-LIN-0778",
       "type": "dharma_heir",
-      "from_ref": "P-2571",
+      "from_ref": "P-3591",
       "to_ref": "P-2988",
       "valid_time": null,
       "qualifier": "原文：「京兆翠微無學禪師法嗣五人，伏牛山元通禪師」",
@@ -22167,7 +22121,7 @@
     {
       "id": "R-LIN-0810",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-2955",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，河中南際山僧一禪師」",
@@ -22178,7 +22132,7 @@
     {
       "id": "R-LIN-0811",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-2530",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，潭州大光山居誨禪師」",
@@ -22189,7 +22143,7 @@
     {
       "id": "R-LIN-0812",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-3453",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，廬山懷祐禪師」",
@@ -22200,7 +22154,7 @@
     {
       "id": "R-LIN-0813",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-2537",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，筠州九峯道虔禪師」",
@@ -22211,7 +22165,7 @@
     {
       "id": "R-LIN-0814",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-2756",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，台州涌泉景欣禪師」",
@@ -22222,7 +22176,7 @@
     {
       "id": "R-LIN-0815",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-2596",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，潭州雲蓋山志元禪師」",
@@ -22233,7 +22187,7 @@
     {
       "id": "R-LIN-0816",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-2603",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，潭州谷山藏禪師」",
@@ -22244,7 +22198,7 @@
     {
       "id": "R-LIN-0817",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-3818",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，福州覆船山洪荐禪師」",
@@ -22255,7 +22209,7 @@
     {
       "id": "R-LIN-0818",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-3269",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，朗州德山存德慧空禪師」",
@@ -22266,7 +22220,7 @@
     {
       "id": "R-LIN-0819",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-3322",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，吉州崇恩和尚」",
@@ -22277,7 +22231,7 @@
     {
       "id": "R-LIN-0820",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-3983",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，石霜第三世輝禪師」",
@@ -22288,7 +22242,7 @@
     {
       "id": "R-LIN-0821",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-2801",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，郢州芭蕉和尚」",
@@ -22299,7 +22253,7 @@
     {
       "id": "R-LIN-0822",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-4081",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，潭州肥田伏和尚」",
@@ -22310,7 +22264,7 @@
     {
       "id": "R-LIN-0823",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-4302",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，潭州鹿苑暉禪師」",
@@ -22321,7 +22275,7 @@
     {
       "id": "R-LIN-0824",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-3304",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，潭州寶蓋約禪師」",
@@ -22332,7 +22286,7 @@
     {
       "id": "R-LIN-0825",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-2788",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，鳳翔府石柱和尚」",
@@ -22343,7 +22297,7 @@
     {
       "id": "R-LIN-0826",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-2842",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，潭州中雲蓋和尚」",
@@ -22354,7 +22308,7 @@
     {
       "id": "R-LIN-0827",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-2709",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，河中捿巖存壽禪師」",
@@ -22365,7 +22319,7 @@
     {
       "id": "R-LIN-0828",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-3086",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，南嶽玄泰上座」",
@@ -22376,7 +22330,7 @@
     {
       "id": "R-LIN-0829",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-3704",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，杭州龍泉敬禪師」",
@@ -22387,7 +22341,7 @@
     {
       "id": "R-LIN-0830",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-3961",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，潞府盤亭宗敏禪師」",
@@ -22398,7 +22352,7 @@
     {
       "id": "R-LIN-0831",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-3585",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，新羅欽忠禪師」",
@@ -22409,7 +22363,7 @@
     {
       "id": "R-LIN-0832",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-3584",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，新羅行寂禪師」",
@@ -22420,7 +22374,7 @@
     {
       "id": "R-LIN-0833",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-4300",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，洪州鹿源和尚」",
@@ -22431,7 +22385,7 @@
     {
       "id": "R-LIN-0834",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-3205",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，郢州大陽山和尚」",
@@ -22442,7 +22396,7 @@
     {
       "id": "R-LIN-0835",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-3856",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，滑州觀音和尚」",
@@ -22453,7 +22407,7 @@
     {
       "id": "R-LIN-0836",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-0422",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，鄆州正覺和尚」",
@@ -22464,7 +22418,7 @@
     {
       "id": "R-LIN-0837",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-2822",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，商州高明和尚」",
@@ -22475,7 +22429,7 @@
     {
       "id": "R-LIN-0838",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-3382",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，許州慶壽和尚」",
@@ -22486,7 +22440,7 @@
     {
       "id": "R-LIN-0839",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-2611",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，鎮州萬歲和尚」",
@@ -22497,7 +22451,7 @@
     {
       "id": "R-LIN-0840",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-3879",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，第二世鎮州靈壽和尚」",
@@ -22508,7 +22462,7 @@
     {
       "id": "R-LIN-0841",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-3815",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，鎮州洪濟禪師」",
@@ -22519,7 +22473,7 @@
     {
       "id": "R-LIN-0842",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-3106",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，吉州簡之禪師」",
@@ -22530,7 +22484,7 @@
     {
       "id": "R-LIN-0843",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-3198",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，大梁洪方禪師」",
@@ -22541,7 +22495,7 @@
     {
       "id": "R-LIN-0844",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-2711",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，卬州守閑禪師」",
@@ -22552,7 +22506,7 @@
     {
       "id": "R-LIN-0845",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-3578",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，新羅朗禪師」",
@@ -22563,7 +22517,7 @@
     {
       "id": "R-LIN-0846",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-3581",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，新羅清虛禪師」",
@@ -22574,7 +22528,7 @@
     {
       "id": "R-LIN-0847",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-3748",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，汾州爽禪師」",
@@ -22585,7 +22539,7 @@
     {
       "id": "R-LIN-0848",
       "type": "dharma_heir",
-      "from_ref": "P-2512",
+      "from_ref": "P-3383",
       "to_ref": "P-2926",
       "valid_time": null,
       "qualifier": "原文：「潭州石霜慶諸禪師法嗣四十一人，餘杭通禪師」",
@@ -22905,7 +22859,7 @@
       "id": "R-LIN-0877",
       "type": "dharma_heir",
       "from_ref": "P-2517",
-      "to_ref": "P-3807",
+      "to_ref": "P-2562",
       "valid_time": null,
       "qualifier": "原文：「袁州洞山良价禪師法嗣二十六人，洞山第三世師虔禪師」",
       "assertion_ids": [
@@ -23752,7 +23706,7 @@
       "id": "R-LIN-0954",
       "type": "dharma_heir",
       "from_ref": "P-2509",
-      "to_ref": "P-2940",
+      "to_ref": "P-2519",
       "valid_time": null,
       "qualifier": "原文：「福州雪峯義存禪師法嗣下四十二人，漳州保福從展禪師」",
       "assertion_ids": [
@@ -23807,7 +23761,7 @@
       "id": "R-LIN-0959",
       "type": "dharma_heir",
       "from_ref": "P-2509",
-      "to_ref": "P-2888",
+      "to_ref": "P-2508",
       "valid_time": null,
       "qualifier": "原文：「福州雪峯義存禪師法嗣下四十二人，韶州雲門文偃禪師」",
       "assertion_ids": [
@@ -24995,7 +24949,7 @@
       "id": "R-LIN-1067",
       "type": "dharma_heir",
       "from_ref": "P-2534",
-      "to_ref": "P-2895",
+      "to_ref": "P-3142",
       "valid_time": null,
       "qualifier": "原文：「樂普山元安禪師法嗣十人，京兆永安善靜禪師」",
       "assertion_ids": [
@@ -28152,7 +28106,7 @@
       "id": "R-LIN-1354",
       "type": "dharma_heir",
       "from_ref": "P-2549",
-      "to_ref": "P-2507",
+      "to_ref": "P-1231",
       "valid_time": null,
       "qualifier": "原文：「漳州羅漢院桂琛禪師法嗣七人，金陵清涼文益禪師」",
       "assertion_ids": [
@@ -28910,7 +28864,7 @@
     {
       "id": "R-LIN-1423",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-2513",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，天台山德韶國師」",
@@ -28921,7 +28875,7 @@
     {
       "id": "R-LIN-1424",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-2577",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，杭州報恩寺慧明禪師」",
@@ -28932,7 +28886,7 @@
     {
       "id": "R-LIN-1425",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-4072",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，漳州羅漢智依大師」",
@@ -28943,7 +28897,7 @@
     {
       "id": "R-LIN-1426",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-4027",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，金陵章義道欽禪師」",
@@ -28954,7 +28908,7 @@
     {
       "id": "R-LIN-1427",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3524",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，金陵報恩匡逸禪師」",
@@ -28965,7 +28919,7 @@
     {
       "id": "R-LIN-1428",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3539",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，金陵報慈文遂導師」",
@@ -28976,7 +28930,7 @@
     {
       "id": "R-LIN-1429",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-4070",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，漳州羅漢守仁禪師」",
@@ -28987,7 +28941,7 @@
     {
       "id": "R-LIN-1430",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-4213",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，杭州永明寺道潛禪師」",
@@ -28998,7 +28952,7 @@
     {
       "id": "R-LIN-1431",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-4091",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，撫州黃山良匡禪師」",
@@ -29009,7 +28963,7 @@
     {
       "id": "R-LIN-1432",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-2545",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，杭州靈隱清聳禪師」",
@@ -29020,7 +28974,7 @@
     {
       "id": "R-LIN-1433",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3533",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，金陵報恩玄則禪師」",
@@ -29031,7 +28985,7 @@
     {
       "id": "R-LIN-1434",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-2638",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，金陵報慈行言導師」",
@@ -29042,7 +28996,7 @@
     {
       "id": "R-LIN-1435",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3050",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，金陵淨德智筠禪師」",
@@ -29053,7 +29007,7 @@
     {
       "id": "R-LIN-1436",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-4292",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，高麗道峯慧炬國師」",
@@ -29064,7 +29018,7 @@
     {
       "id": "R-LIN-1437",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-2651",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，金陵清涼泰欽禪師」",
@@ -29075,7 +29029,7 @@
     {
       "id": "R-LIN-1438",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-4059",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，杭州寶塔寺紹巖禪師」",
@@ -29086,7 +29040,7 @@
     {
       "id": "R-LIN-1439",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-2637",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，金陵報恩法安禪師」",
@@ -29097,7 +29051,7 @@
     {
       "id": "R-LIN-1440",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3321",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，撫州崇壽契稠禪師」",
@@ -29108,7 +29062,7 @@
     {
       "id": "R-LIN-1441",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-2876",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，洪州雲居清錫禪師」",
@@ -29119,7 +29073,7 @@
     {
       "id": "R-LIN-1442",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3952",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，洪州百丈道常禪師」",
@@ -29130,7 +29084,7 @@
     {
       "id": "R-LIN-1443",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3216",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，天台般若敬遵禪師」",
@@ -29141,7 +29095,7 @@
     {
       "id": "R-LIN-1444",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3424",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，廬山歸宗策真禪師」",
@@ -29152,7 +29106,7 @@
     {
       "id": "R-LIN-1445",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3111",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，洪州同安紹顯禪師」",
@@ -29163,7 +29117,7 @@
     {
       "id": "R-LIN-1446",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3711",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，廬山棲賢慧圓禪師」",
@@ -29174,7 +29128,7 @@
     {
       "id": "R-LIN-1447",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-4277",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，洪州觀音從顯禪師」",
@@ -29185,7 +29139,7 @@
     {
       "id": "R-LIN-1448",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-4246",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，廬州長安延規禪師」",
@@ -29196,7 +29150,7 @@
     {
       "id": "R-LIN-1449",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3722",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，常州正勤希奉禪師」",
@@ -29207,7 +29161,7 @@
     {
       "id": "R-LIN-1450",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3031",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，洛京興善棲倫禪師」",
@@ -29218,7 +29172,7 @@
     {
       "id": "R-LIN-1451",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3567",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，洪州新興齊禪師」",
@@ -29229,7 +29183,7 @@
     {
       "id": "R-LIN-1452",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3476",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣上三十人，潤州慈雲匡達禪師」",
@@ -29240,7 +29194,7 @@
     {
       "id": "R-LIN-1453",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-4108",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，蘇州薦福紹明禪師」",
@@ -29251,7 +29205,7 @@
     {
       "id": "R-LIN-1454",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3102",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，澤州古賢謹禪師」",
@@ -29262,7 +29216,7 @@
     {
       "id": "R-LIN-1455",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-4115",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，洪州上藍守訥禪師」",
@@ -29273,7 +29227,7 @@
     {
       "id": "R-LIN-1456",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-4161",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，撫州覆船和尚」",
@@ -29284,7 +29238,7 @@
     {
       "id": "R-LIN-1457",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3242",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，杭州奉先法瓌禪師」",
@@ -29295,7 +29249,7 @@
     {
       "id": "R-LIN-1458",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-0163",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，廬山化城慧朗禪師」",
@@ -29306,7 +29260,7 @@
     {
       "id": "R-LIN-1459",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3738",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，杭州永明道鴻禪師」",
@@ -29317,7 +29271,7 @@
     {
       "id": "R-LIN-1460",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-4291",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，高麗靈鑒禪師」",
@@ -29328,7 +29282,7 @@
     {
       "id": "R-LIN-1461",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-4107",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，荊門上泉和尚」",
@@ -29339,7 +29293,7 @@
     {
       "id": "R-LIN-1462",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-2979",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，廬山大林僧遁禪師」",
@@ -29350,7 +29304,7 @@
     {
       "id": "R-LIN-1463",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-2905",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，池州仁王緣勝禪師」",
@@ -29361,7 +29315,7 @@
     {
       "id": "R-LIN-1464",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3416",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，廬山歸宗義柔禪師」",
@@ -29372,7 +29326,7 @@
     {
       "id": "R-LIN-1465",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3588",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，泉州上方慧英禪師」",
@@ -29383,7 +29337,7 @@
     {
       "id": "R-LIN-1466",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-4105",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，荊州護國邁禪師」",
@@ -29394,7 +29348,7 @@
     {
       "id": "R-LIN-1467",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-4285",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，饒州芝嶺照禪師」",
@@ -29405,7 +29359,7 @@
     {
       "id": "R-LIN-1468",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3418",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，廬山歸宗師慧禪師」",
@@ -29416,7 +29370,7 @@
     {
       "id": "R-LIN-1469",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3422",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，廬山歸宗省一禪師」",
@@ -29427,7 +29381,7 @@
     {
       "id": "R-LIN-1470",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-2720",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，襄州延慶通性大師」",
@@ -29438,7 +29392,7 @@
     {
       "id": "R-LIN-1471",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3420",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，廬山歸宗夢欽禪師」",
@@ -29449,7 +29403,7 @@
     {
       "id": "R-LIN-1472",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-4087",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，洪州舍利玄闡禪師」",
@@ -29460,7 +29414,7 @@
     {
       "id": "R-LIN-1473",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3734",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，洪州永安明禪師」",
@@ -29471,7 +29425,7 @@
     {
       "id": "R-LIN-1474",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-4004",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，洪州禪谿可莊禪師」",
@@ -29482,7 +29436,7 @@
     {
       "id": "R-LIN-1475",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3982",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，潭州石霜爽禪師」",
@@ -29493,7 +29447,7 @@
     {
       "id": "R-LIN-1476",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3880",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，江西靈山和尚」",
@@ -29504,7 +29458,7 @@
     {
       "id": "R-LIN-1477",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3385",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，廬山佛手巖因禪師」",
@@ -29515,7 +29469,7 @@
     {
       "id": "R-LIN-1478",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-2934",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，金陵保安止和尚」",
@@ -29526,7 +29480,7 @@
     {
       "id": "R-LIN-1479",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3070",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，昇州華嚴幽禪師」",
@@ -29537,7 +29491,7 @@
     {
       "id": "R-LIN-1480",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3685",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，袁州木平道達禪師」",
@@ -29548,7 +29502,7 @@
     {
       "id": "R-LIN-1481",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-3187",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，洪州大寧道邁禪師」",
@@ -29559,7 +29513,7 @@
     {
       "id": "R-LIN-1482",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-4323",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，楚州龍興德賓禪師」",
@@ -29570,7 +29524,7 @@
     {
       "id": "R-LIN-1483",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-4309",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，鄂州黃龍仁禪師」",
@@ -29581,7 +29535,7 @@
     {
       "id": "R-LIN-1484",
       "type": "dharma_heir",
-      "from_ref": "P-2507",
+      "from_ref": "P-1231",
       "to_ref": "P-4219",
       "valid_time": null,
       "qualifier": "原文：「金陵清涼文益禪師法嗣下三十三人，洪州西山道聳禪師」",
@@ -30736,7 +30690,7 @@
     {
       "id": "R-LIN-1589",
       "type": "dharma_heir",
-      "from_ref": "P-2525",
+      "from_ref": "P-2730",
       "to_ref": "P-2903",
       "valid_time": null,
       "qualifier": "原文：「前嵩嶽慧安國師法嗣一十八人，洛京福先寺仁儉禪師」（合并省/全称重复提取：嵩嶽慧安）",
@@ -30747,7 +30701,7 @@
     {
       "id": "R-LIN-1590",
       "type": "dharma_heir",
-      "from_ref": "P-2525",
+      "from_ref": "P-2730",
       "to_ref": "P-3339",
       "valid_time": null,
       "qualifier": "原文：「前嵩嶽慧安國師法嗣一十八人，嵩嶽破竈墮和尚」（合并省/全称重复提取：嵩嶽慧安）",
@@ -30758,7 +30712,7 @@
     {
       "id": "R-LIN-1591",
       "type": "dharma_heir",
-      "from_ref": "P-2525",
+      "from_ref": "P-2730",
       "to_ref": "P-3338",
       "valid_time": null,
       "qualifier": "原文：「前嵩嶽慧安國師法嗣一十八人，嵩嶽元珪禪師」（合并省/全称重复提取：嵩嶽慧安）",
@@ -30769,7 +30723,7 @@
     {
       "id": "R-LIN-1592",
       "type": "dharma_heir",
-      "from_ref": "P-2525",
+      "from_ref": "P-2730",
       "to_ref": "P-3162",
       "valid_time": null,
       "qualifier": "原文：「前嵩嶽慧安國師法嗣一十八人，常山坦然禪師」（合并省/全称重复提取：嵩嶽慧安）",
@@ -30780,7 +30734,7 @@
     {
       "id": "R-LIN-1593",
       "type": "dharma_heir",
-      "from_ref": "P-2525",
+      "from_ref": "P-2730",
       "to_ref": "P-3153",
       "valid_time": null,
       "qualifier": "原文：「前嵩嶽慧安國師法嗣一十八人，鄴都圓寂禪師」（合并省/全称重复提取：嵩嶽慧安）",
@@ -30791,7 +30745,7 @@
     {
       "id": "R-LIN-1594",
       "type": "dharma_heir",
-      "from_ref": "P-2525",
+      "from_ref": "P-2730",
       "to_ref": "P-2609",
       "valid_time": null,
       "qualifier": "原文：「前嵩嶽慧安國師法嗣一十八人，西京道亮禪師」（合并省/全称重复提取：嵩嶽慧安）",
@@ -30802,7 +30756,7 @@
     {
       "id": "R-LIN-1595",
       "type": "dharma_heir",
-      "from_ref": "P-2525",
+      "from_ref": "P-2730",
       "to_ref": "P-3696",
       "valid_time": null,
       "qualifier": "原文：「前嵩嶽慧安國師等法嗣一十八人，楊州大總管李孝逸」",
@@ -30813,7 +30767,7 @@
     {
       "id": "R-LIN-1596",
       "type": "dharma_heir",
-      "from_ref": "P-2525",
+      "from_ref": "P-2730",
       "to_ref": "P-3340",
       "valid_time": null,
       "qualifier": "原文：「前嵩嶽慧安國師等法嗣一十八人，工部尚書張錫」",
@@ -30824,7 +30778,7 @@
     {
       "id": "R-LIN-1597",
       "type": "dharma_heir",
-      "from_ref": "P-2525",
+      "from_ref": "P-2730",
       "to_ref": "P-3148",
       "valid_time": null,
       "qualifier": "原文：「前嵩嶽慧安國師等法嗣一十八人，國子祭酒崔融」",
@@ -30835,7 +30789,7 @@
     {
       "id": "R-LIN-1598",
       "type": "dharma_heir",
-      "from_ref": "P-2525",
+      "from_ref": "P-2730",
       "to_ref": "P-4024",
       "valid_time": null,
       "qualifier": "原文：「前嵩嶽慧安國師等法嗣一十八人，祕書監賀知章」",
@@ -30846,7 +30800,7 @@
     {
       "id": "R-LIN-1599",
       "type": "dharma_heir",
-      "from_ref": "P-2525",
+      "from_ref": "P-2730",
       "to_ref": "P-3059",
       "valid_time": null,
       "qualifier": "原文：「前嵩嶽慧安國師等法嗣一十八人，睦州刺史康詵」",
@@ -30857,7 +30811,7 @@
     {
       "id": "R-LIN-1600",
       "type": "dharma_heir",
-      "from_ref": "P-2525",
+      "from_ref": "P-2730",
       "to_ref": "P-2764",
       "valid_time": null,
       "qualifier": "原文：「前嵩嶽慧安國師等法嗣一十八人，正壽禪師」",
@@ -30868,7 +30822,7 @@
     {
       "id": "R-LIN-1601",
       "type": "dharma_heir",
-      "from_ref": "P-2525",
+      "from_ref": "P-2730",
       "to_ref": "P-3320",
       "valid_time": null,
       "qualifier": "原文：「前嵩嶽慧安國師等法嗣一十八人，洪州崇寂禪師」",
@@ -30879,7 +30833,7 @@
     {
       "id": "R-LIN-1602",
       "type": "dharma_heir",
-      "from_ref": "P-2525",
+      "from_ref": "P-2730",
       "to_ref": "P-2706",
       "valid_time": null,
       "qualifier": "原文：「前嵩嶽慧安國師等法嗣一十八人，資州處寂禪師」",
@@ -30890,7 +30844,7 @@
     {
       "id": "R-LIN-1603",
       "type": "dharma_heir",
-      "from_ref": "P-2525",
+      "from_ref": "P-2730",
       "to_ref": "P-2854",
       "valid_time": null,
       "qualifier": "原文：「前嵩嶽慧安國師等法嗣一十八人，義興神斐禪師」",
@@ -30901,7 +30855,7 @@
     {
       "id": "R-LIN-1604",
       "type": "dharma_heir",
-      "from_ref": "P-2525",
+      "from_ref": "P-2730",
       "to_ref": "P-3853",
       "valid_time": null,
       "qualifier": "原文：「前嵩嶽慧安國師等法嗣一十八人，湖州暢禪師」",
@@ -31727,7 +31681,7 @@
       "id": "R-LIN-1679",
       "type": "dharma_heir",
       "from_ref": "P-HUINENG",
-      "to_ref": "P-3730",
+      "to_ref": "P-0132",
       "valid_time": null,
       "qualifier": "原文：「第三十三祖慧能大師法嗣四十三人，溫州永嘉玄覺禪師」",
       "assertion_ids": [
@@ -50802,29 +50756,6 @@
       "notes": "采集记录 T50n2061-00351（_pattern=trans_role）；证据句节录照录于 qualifier；访问 2026-11-01"
     },
     {
-      "id": "A-I7-T50N2061-00352",
-      "claim": "宋高僧傳卷2（T50n2061） 载 釋智慧 → 得罽賓（译场协作）",
-      "evidence_kind": "traditional_account",
-      "source_ids": [
-        "S-CBETA-T50N2061"
-      ],
-      "display_status": "primary",
-      "targets": [
-        {
-          "subject_ref": "R-LIN-0368",
-          "aspects": [
-            "type",
-            "from_ref",
-            "to_ref",
-            "valid_time",
-            "qualifier"
-          ],
-          "proposed_values": {}
-        }
-      ],
-      "notes": "采集记录 T50n2061-00352（_pattern=trans_role）；证据句节录照录于 qualifier；访问 2026-11-01"
-    },
-    {
       "id": "A-I7-T50N2061-00353",
       "claim": "宋高僧傳卷2（T50n2061） 载 釋智慧 → 利言度語（译场协作）",
       "evidence_kind": "traditional_account",
@@ -51191,29 +51122,6 @@
         }
       ],
       "notes": "采集记录 T50n2061-00368（_pattern=trans_role）；证据句节录照录于 qualifier；访问 2026-11-01"
-    },
-    {
-      "id": "A-I7-T50N2061-00369",
-      "claim": "宋高僧傳卷2（T50n2061） 载 沙門明佺 → 更與翻經（译场协作）",
-      "evidence_kind": "traditional_account",
-      "source_ids": [
-        "S-CBETA-T50N2061"
-      ],
-      "display_status": "primary",
-      "targets": [
-        {
-          "subject_ref": "R-LIN-0385",
-          "aspects": [
-            "type",
-            "from_ref",
-            "to_ref",
-            "valid_time",
-            "qualifier"
-          ],
-          "proposed_values": {}
-        }
-      ],
-      "notes": "采集记录 T50n2061-00369（_pattern=trans_role）；证据句节录照录于 qualifier；访问 2026-11-01"
     },
     {
       "id": "A-I7-T50N2061-00370",
