@@ -2,6 +2,37 @@ Attribution 4.0 International
 
 =======================================================================
 
+NOTE ON THIRD-PARTY SUBSET LICENSING / 第三方子集许可附注
+
+This repository ("buddhism-data") is released as a whole under
+Creative Commons Attribution 4.0 International (CC BY 4.0), the text
+of which follows below.
+
+One third-party subset is an exception and carries its own license:
+
+    The Tibetan Wylie terminology fields ("tibetan_wylie") in
+    data/texts-v0.1.json whose provenance.source_ids contain
+    "S-DILA-MVP" (628 terms as of snapshot v0.2; machine-filterable)
+    are derived from the Mahāvyutpatti TEI P5 digital edition
+    published by the Dharma Drum Institute of Liberal Arts (DILA)
+    Buddhist Authority Database (https://glossaries.dila.edu.tw/),
+    and are licensed under Creative Commons
+    Attribution-NonCommercial-ShareAlike 4.0 International
+    (CC BY-NC-SA 4.0). Redistribution and commercial use of that
+    subset (or of derivative databases containing it) must comply
+    with the NonCommercial and ShareAlike terms, with attribution to
+    DILA's Mahāvyutpatti edition.
+
+    本数据库总体遵循 CC BY 4.0，其中 data/texts-v0.1.json terms 段
+    标有 S-DILA-MVP 来源之 tibetan_wylie 藏语字段继承
+    CC BY-NC-SA 4.0 许可协议分标（v0.2 快照为 628 条，可按
+    provenance.source_ids 过滤）。详见 README「许可」节。
+
+Except for the subset identified above, the CC BY 4.0 license text
+below applies unchanged.
+
+=======================================================================
+
 Creative Commons Corporation ("Creative Commons") is not a law firm and
 does not provide legal services or legal advice. Distribution of
 Creative Commons public licenses does not create a lawyer-client or

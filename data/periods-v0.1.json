@@ -1,0 +1,1035 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "version": "0.1",
+  "description": "佛教文献与传播历史时期与朝代参照表",
+  "periods": [
+    {
+      "id": "PERIOD-CN-QIANHAN",
+      "period_label": "前漢",
+      "region": "china",
+      "start_year": -202,
+      "end_year": 8,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 通行纪年（前202–8年）"
+    },
+    {
+      "id": "PERIOD-CN-HOUHAN",
+      "period_label": "後漢",
+      "region": "china",
+      "start_year": 25,
+      "end_year": 220,
+      "is_umbrella": false,
+      "aliases": [
+        "東漢"
+      ],
+      "source_note": "DYNASTY_CE 通行纪年（25–220年）；东汉/后汉"
+    },
+    {
+      "id": "PERIOD-CN-CAOWEI",
+      "period_label": "曹魏",
+      "region": "china",
+      "start_year": 220,
+      "end_year": 265,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 通行纪年（220–265年）"
+    },
+    {
+      "id": "PERIOD-CN-SHU",
+      "period_label": "蜀",
+      "region": "china",
+      "start_year": 221,
+      "end_year": 263,
+      "is_umbrella": false,
+      "aliases": [
+        "蜀漢"
+      ],
+      "source_note": "DYNASTY_CE 通行纪年（221–263年）"
+    },
+    {
+      "id": "PERIOD-CN-WU",
+      "period_label": "吳",
+      "region": "china",
+      "start_year": 222,
+      "end_year": 280,
+      "is_umbrella": false,
+      "aliases": [
+        "孫吳"
+      ],
+      "source_note": "DYNASTY_CE 通行纪年（222–280年）"
+    },
+    {
+      "id": "PERIOD-CN-XIJIN",
+      "period_label": "西晉",
+      "region": "china",
+      "start_year": 265,
+      "end_year": 316,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 通行纪年（265–316年）"
+    },
+    {
+      "id": "PERIOD-CN-DONGJIN",
+      "period_label": "東晉",
+      "region": "china",
+      "start_year": 317,
+      "end_year": 420,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 通行纪年（317–420年）"
+    },
+    {
+      "id": "PERIOD-CN-QIANLIANG",
+      "period_label": "前涼",
+      "region": "china",
+      "start_year": 314,
+      "end_year": 376,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 通行纪年（314–376年）"
+    },
+    {
+      "id": "PERIOD-CN-QIANQIN",
+      "period_label": "前秦",
+      "region": "china",
+      "start_year": 351,
+      "end_year": 394,
+      "is_umbrella": false,
+      "aliases": [
+        "符秦",
+        "苻秦"
+      ],
+      "source_note": "DYNASTY_CE 通行纪年（351–394年）"
+    },
+    {
+      "id": "PERIOD-CN-HOUQIN",
+      "period_label": "後秦",
+      "region": "china",
+      "start_year": 384,
+      "end_year": 417,
+      "is_umbrella": false,
+      "aliases": [
+        "姚秦"
+      ],
+      "source_note": "DYNASTY_CE 通行纪年（384–417年）"
+    },
+    {
+      "id": "PERIOD-CN-XIQIN",
+      "period_label": "西秦",
+      "region": "china",
+      "start_year": 385,
+      "end_year": 431,
+      "is_umbrella": false,
+      "aliases": [
+        "乞伏秦"
+      ],
+      "source_note": "DYNASTY_CE 通行纪年（385–431年）"
+    },
+    {
+      "id": "PERIOD-CN-HOULIANG",
+      "period_label": "後涼",
+      "region": "china",
+      "start_year": 386,
+      "end_year": 403,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 通行纪年（386–403年）"
+    },
+    {
+      "id": "PERIOD-CN-YUANWEI",
+      "period_label": "元魏",
+      "region": "china",
+      "start_year": 386,
+      "end_year": 534,
+      "is_umbrella": false,
+      "aliases": [
+        "北魏",
+        "後魏"
+      ],
+      "source_note": "DYNASTY_CE 通行纪年（386–534年）"
+    },
+    {
+      "id": "PERIOD-CN-NANLIANG",
+      "period_label": "南涼",
+      "region": "china",
+      "start_year": 397,
+      "end_year": 414,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 通行纪年（397–414年）"
+    },
+    {
+      "id": "PERIOD-CN-BEILIANG",
+      "period_label": "北涼",
+      "region": "china",
+      "start_year": 397,
+      "end_year": 439,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 通行纪年（397–439年）"
+    },
+    {
+      "id": "PERIOD-CN-LIUSONG",
+      "period_label": "劉宋",
+      "region": "china",
+      "start_year": 420,
+      "end_year": 479,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 通行纪年（420–479年）"
+    },
+    {
+      "id": "PERIOD-CN-QI",
+      "period_label": "齊",
+      "region": "china",
+      "start_year": 479,
+      "end_year": 502,
+      "is_umbrella": false,
+      "aliases": [
+        "蕭齊"
+      ],
+      "source_note": "DYNASTY_CE 通行纪年（479–502年）；南朝齐"
+    },
+    {
+      "id": "PERIOD-CN-LIANG",
+      "period_label": "梁",
+      "region": "china",
+      "start_year": 502,
+      "end_year": 557,
+      "is_umbrella": false,
+      "aliases": [
+        "蕭梁"
+      ],
+      "source_note": "DYNASTY_CE 通行纪年（502–557年）；南朝梁"
+    },
+    {
+      "id": "PERIOD-CN-DONGWEI",
+      "period_label": "東魏",
+      "region": "china",
+      "start_year": 534,
+      "end_year": 550,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 通行纪年（534–550年）"
+    },
+    {
+      "id": "PERIOD-CN-XIWEI",
+      "period_label": "西魏",
+      "region": "china",
+      "start_year": 535,
+      "end_year": 557,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 通行纪年（535–557年）"
+    },
+    {
+      "id": "PERIOD-CN-BEIQI",
+      "period_label": "北齊",
+      "region": "china",
+      "start_year": 550,
+      "end_year": 577,
+      "is_umbrella": false,
+      "aliases": [
+        "高齊"
+      ],
+      "source_note": "DYNASTY_CE 通行纪年（550–577年）"
+    },
+    {
+      "id": "PERIOD-CN-BEIZHOU",
+      "period_label": "北周",
+      "region": "china",
+      "start_year": 557,
+      "end_year": 581,
+      "is_umbrella": false,
+      "aliases": [
+        "宇文周",
+        "周"
+      ],
+      "source_note": "DYNASTY_CE 通行纪年（557–581年）"
+    },
+    {
+      "id": "PERIOD-CN-CHEN",
+      "period_label": "陳",
+      "region": "china",
+      "start_year": 557,
+      "end_year": 589,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 通行纪年（557–589年）；南朝陈"
+    },
+    {
+      "id": "PERIOD-CN-SUI",
+      "period_label": "隋",
+      "region": "china",
+      "start_year": 581,
+      "end_year": 618,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 通行纪年（581–618年）"
+    },
+    {
+      "id": "PERIOD-CN-TANG",
+      "period_label": "唐",
+      "region": "china",
+      "start_year": 618,
+      "end_year": 907,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 通行纪年（618–907年）"
+    },
+    {
+      "id": "PERIOD-CN-WUZHOU",
+      "period_label": "武周",
+      "region": "china",
+      "start_year": 690,
+      "end_year": 705,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 通行纪年（690–705年）"
+    },
+    {
+      "id": "PERIOD-CN-WUDAI",
+      "period_label": "五代",
+      "region": "china",
+      "start_year": 907,
+      "end_year": 960,
+      "is_umbrella": true,
+      "aliases": [
+        "五代十國"
+      ],
+      "source_note": "通识纪年（907–960年）；伞形时期"
+    },
+    {
+      "id": "PERIOD-CN-WUDAI-HOULIANG",
+      "period_label": "後梁",
+      "region": "china",
+      "start_year": 907,
+      "end_year": 923,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "五代后梁历史纪年（907–923年）"
+    },
+    {
+      "id": "PERIOD-CN-HOUTANG",
+      "period_label": "後唐",
+      "region": "china",
+      "start_year": 923,
+      "end_year": 936,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "阶段1补充（923–936年）"
+    },
+    {
+      "id": "PERIOD-CN-HOUJIN",
+      "period_label": "後晉",
+      "region": "china",
+      "start_year": 936,
+      "end_year": 947,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "五代后晋历史纪年（936–947年）"
+    },
+    {
+      "id": "PERIOD-CN-WUDAI-HOUHAN",
+      "period_label": "五代後漢",
+      "region": "china",
+      "start_year": 947,
+      "end_year": 950,
+      "is_umbrella": false,
+      "aliases": [
+        "後漢(五代)"
+      ],
+      "source_note": "五代后汉历史纪年（947–950年）"
+    },
+    {
+      "id": "PERIOD-CN-NANTANG",
+      "period_label": "南唐",
+      "region": "china",
+      "start_year": 937,
+      "end_year": 975,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 通行纪年（937–975年）"
+    },
+    {
+      "id": "PERIOD-CN-HOUZHOU",
+      "period_label": "後周",
+      "region": "china",
+      "start_year": 951,
+      "end_year": 960,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 通行纪年（951–960年）"
+    },
+    {
+      "id": "PERIOD-CN-LIAO",
+      "period_label": "遼",
+      "region": "china",
+      "start_year": 916,
+      "end_year": 1125,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 通行纪年（916–1125年）"
+    },
+    {
+      "id": "PERIOD-CN-SONG",
+      "period_label": "宋",
+      "region": "china",
+      "start_year": 960,
+      "end_year": 1279,
+      "is_umbrella": false,
+      "aliases": [
+        "北宋",
+        "南宋"
+      ],
+      "source_note": "DYNASTY_CE 通行纪年（960–1279年）"
+    },
+    {
+      "id": "PERIOD-CN-XIXIA",
+      "period_label": "西夏",
+      "region": "china",
+      "start_year": 1038,
+      "end_year": 1227,
+      "is_umbrella": false,
+      "aliases": [
+        "夏"
+      ],
+      "source_note": "DYNASTY_CE 通行纪年（1038–1227年）"
+    },
+    {
+      "id": "PERIOD-CN-JIN",
+      "period_label": "金",
+      "region": "china",
+      "start_year": 1115,
+      "end_year": 1234,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 通行纪年（1115–1234年）"
+    },
+    {
+      "id": "PERIOD-CN-YUAN",
+      "period_label": "元",
+      "region": "china",
+      "start_year": 1271,
+      "end_year": 1368,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 通行纪年（1271–1368年）"
+    },
+    {
+      "id": "PERIOD-CN-MING",
+      "period_label": "明",
+      "region": "china",
+      "start_year": 1368,
+      "end_year": 1644,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 通行纪年（1368–1644年）"
+    },
+    {
+      "id": "PERIOD-CN-QING",
+      "period_label": "清",
+      "region": "china",
+      "start_year": 1644,
+      "end_year": 1911,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 通行纪年（1644–1911年）"
+    },
+    {
+      "id": "PERIOD-CN-MINGUO",
+      "period_label": "民國",
+      "region": "china",
+      "start_year": 1912,
+      "end_year": 1949,
+      "is_umbrella": false,
+      "aliases": [
+        "中華民國"
+      ],
+      "source_note": "DYNASTY_CE 通行纪年（1912–1949年）"
+    },
+    {
+      "id": "PERIOD-CN-MODERN",
+      "period_label": "現代",
+      "region": "china",
+      "start_year": 1949,
+      "end_year": 2050,
+      "is_umbrella": false,
+      "aliases": [
+        "現代中國",
+        "中華人民共和國"
+      ],
+      "source_note": "现代中国时期（1949年至今）"
+    },
+    {
+      "id": "PERIOD-CN-HAN-UMBRELLA",
+      "period_label": "漢",
+      "region": "china",
+      "start_year": -202,
+      "end_year": 220,
+      "is_umbrella": true,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 伞形时期（前202–220年）"
+    },
+    {
+      "id": "PERIOD-CN-WEI-UMBRELLA",
+      "period_label": "魏",
+      "region": "china",
+      "start_year": 220,
+      "end_year": 265,
+      "is_umbrella": true,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 伞形时期（220–265年）"
+    },
+    {
+      "id": "PERIOD-CN-JIN-UMBRELLA",
+      "period_label": "晉",
+      "region": "china",
+      "start_year": 265,
+      "end_year": 420,
+      "is_umbrella": true,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 伞形时期（265–420年）"
+    },
+    {
+      "id": "PERIOD-CN-QIN-UMBRELLA",
+      "period_label": "秦",
+      "region": "china",
+      "start_year": 351,
+      "end_year": 417,
+      "is_umbrella": true,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 伞形时期（351–417年）"
+    },
+    {
+      "id": "PERIOD-CN-LIANG-UMBRELLA",
+      "period_label": "涼",
+      "region": "china",
+      "start_year": 314,
+      "end_year": 439,
+      "is_umbrella": true,
+      "aliases": [],
+      "source_note": "DYNASTY_CE 伞形时期（314–439年）"
+    },
+    {
+      "id": "PERIOD-CN-NANBEICHAO-UMBRELLA",
+      "period_label": "南北朝",
+      "region": "china",
+      "start_year": 420,
+      "end_year": 589,
+      "is_umbrella": true,
+      "aliases": [],
+      "source_note": "阶段1补充伞形时期（420–589年）"
+    },
+    {
+      "id": "PERIOD-IN-MAURYA",
+      "period_label": "孔雀王朝",
+      "region": "india",
+      "start_year": -322,
+      "end_year": -185,
+      "is_umbrella": false,
+      "aliases": [
+        "孔雀帝國",
+        "Maurya"
+      ],
+      "source_note": "古印度通识系年（约前322–前185年）"
+    },
+    {
+      "id": "PERIOD-IN-SUNGA",
+      "period_label": "巽伽",
+      "region": "india",
+      "start_year": -185,
+      "end_year": -73,
+      "is_umbrella": false,
+      "aliases": [
+        "巽伽王朝",
+        "Sunga"
+      ],
+      "source_note": "古印度通识系年（约前185–前73年）"
+    },
+    {
+      "id": "PERIOD-IN-KANVA",
+      "period_label": "甘婆",
+      "region": "india",
+      "start_year": -73,
+      "end_year": -28,
+      "is_umbrella": false,
+      "aliases": [
+        "甘婆王朝",
+        "Kanva"
+      ],
+      "source_note": "古印度通识系年（约前73–前28年）"
+    },
+    {
+      "id": "PERIOD-IN-SATAVAHANA",
+      "period_label": "薩塔瓦哈納",
+      "region": "india",
+      "start_year": -30,
+      "end_year": 230,
+      "is_umbrella": false,
+      "aliases": [
+        "案達羅",
+        "Satavahana"
+      ],
+      "source_note": "古印度通识系年（约前30–230年）"
+    },
+    {
+      "id": "PERIOD-IN-KUSHAN",
+      "period_label": "貴霜帝國",
+      "region": "india",
+      "start_year": 30,
+      "end_year": 375,
+      "is_umbrella": false,
+      "aliases": [
+        "貴霜",
+        "Kushan"
+      ],
+      "source_note": "古印度通识系年（约30–375年）"
+    },
+    {
+      "id": "PERIOD-IN-GUPTA",
+      "period_label": "笈多帝國",
+      "region": "india",
+      "start_year": 320,
+      "end_year": 550,
+      "is_umbrella": false,
+      "aliases": [
+        "笈多",
+        "Gupta"
+      ],
+      "source_note": "古印度通识系年（约320–550年）"
+    },
+    {
+      "id": "PERIOD-IN-HARSHA",
+      "period_label": "戒日帝國",
+      "region": "india",
+      "start_year": 606,
+      "end_year": 647,
+      "is_umbrella": false,
+      "aliases": [
+        "戒日王朝",
+        "Harsha"
+      ],
+      "source_note": "古印度通识系年（606–647年）"
+    },
+    {
+      "id": "PERIOD-IN-PALA",
+      "period_label": "波羅王朝",
+      "region": "india",
+      "start_year": 750,
+      "end_year": 1174,
+      "is_umbrella": false,
+      "aliases": [
+        "波羅",
+        "Pala"
+      ],
+      "source_note": "古印度通识系年（约750–1174年）"
+    },
+    {
+      "id": "PERIOD-IN-MODERN",
+      "period_label": "現代印度",
+      "region": "india",
+      "start_year": 1858,
+      "end_year": 2050,
+      "is_umbrella": false,
+      "aliases": [
+        "英屬印度",
+        "印度共和國"
+      ],
+      "source_note": "近代与现代印度时期（1858年至今）"
+    },
+    {
+      "id": "PERIOD-IN-TIANZHU",
+      "period_label": "天竺",
+      "region": "india",
+      "start_year": null,
+      "end_year": null,
+      "is_umbrella": false,
+      "aliases": [
+        "中天竺",
+        "南天竺",
+        "北天竺",
+        "西天竺",
+        "東天竺",
+        "印度"
+      ],
+      "source_note": "CBETA 经目题署无年号地区名（天竺系）"
+    },
+    {
+      "id": "PERIOD-KR-GOGURYEO",
+      "period_label": "高句麗",
+      "region": "korea",
+      "start_year": -37,
+      "end_year": 668,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "朝鲜半岛三国历史系年（前37–668年）"
+    },
+    {
+      "id": "PERIOD-KR-BAEKJE",
+      "period_label": "百濟",
+      "region": "korea",
+      "start_year": -18,
+      "end_year": 660,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "朝鲜半岛三国历史系年（前18–660年）"
+    },
+    {
+      "id": "PERIOD-KR-SILLA",
+      "period_label": "新羅",
+      "region": "korea",
+      "start_year": -57,
+      "end_year": 935,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "朝鲜半岛新罗历史系年（前57–935年）"
+    },
+    {
+      "id": "PERIOD-KR-GORYEO",
+      "period_label": "高麗",
+      "region": "korea",
+      "start_year": 918,
+      "end_year": 1392,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "高丽王朝历史系年（918–1392年）"
+    },
+    {
+      "id": "PERIOD-KR-JOSEON",
+      "period_label": "朝鮮",
+      "region": "korea",
+      "start_year": 1392,
+      "end_year": 1897,
+      "is_umbrella": false,
+      "aliases": [
+        "李朝",
+        "朝鮮王朝"
+      ],
+      "source_note": "朝鲜王朝历史系年（1392–1897年）"
+    },
+    {
+      "id": "PERIOD-JP-ASUKA",
+      "period_label": "飛鳥",
+      "region": "japan",
+      "start_year": 538,
+      "end_year": 710,
+      "is_umbrella": false,
+      "aliases": [
+        "飛鳥時代"
+      ],
+      "source_note": "日本通识历史分期（538–710年）"
+    },
+    {
+      "id": "PERIOD-JP-NARA",
+      "period_label": "奈良",
+      "region": "japan",
+      "start_year": 710,
+      "end_year": 794,
+      "is_umbrella": false,
+      "aliases": [
+        "奈良時代"
+      ],
+      "source_note": "日本通识历史分期（710–794年）"
+    },
+    {
+      "id": "PERIOD-JP-HEIAN",
+      "period_label": "平安",
+      "region": "japan",
+      "start_year": 794,
+      "end_year": 1185,
+      "is_umbrella": false,
+      "aliases": [
+        "平安時代"
+      ],
+      "source_note": "日本通识历史分期（794–1185年）"
+    },
+    {
+      "id": "PERIOD-JP-KAMAKURA",
+      "period_label": "鎌倉",
+      "region": "japan",
+      "start_year": 1185,
+      "end_year": 1333,
+      "is_umbrella": false,
+      "aliases": [
+        "鎌倉時代"
+      ],
+      "source_note": "日本通识历史分期（1185–1333年）"
+    },
+    {
+      "id": "PERIOD-JP-MUROMACHI",
+      "period_label": "室町",
+      "region": "japan",
+      "start_year": 1336,
+      "end_year": 1573,
+      "is_umbrella": false,
+      "aliases": [
+        "室町時代"
+      ],
+      "source_note": "日本通识历史分期（1336–1573年）"
+    },
+    {
+      "id": "PERIOD-JP-EDO",
+      "period_label": "江戶",
+      "region": "japan",
+      "start_year": 1603,
+      "end_year": 1868,
+      "is_umbrella": false,
+      "aliases": [
+        "江戶時代",
+        "德川幕府"
+      ],
+      "source_note": "日本通识历史分期（1603–1868年）"
+    },
+    {
+      "id": "PERIOD-JP-MEIJI",
+      "period_label": "明治以降",
+      "region": "japan",
+      "start_year": 1868,
+      "end_year": 2050,
+      "is_umbrella": false,
+      "aliases": [
+        "近代日本",
+        "現代日本"
+      ],
+      "source_note": "日本通识历史分期（1868年至今）"
+    },
+    {
+      "id": "PERIOD-JP-NONE",
+      "period_label": "日本",
+      "region": "japan",
+      "start_year": null,
+      "end_year": null,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "CBETA 经目题署国名（无年号政权）"
+    },
+    {
+      "id": "PERIOD-TB-EMPIRE",
+      "period_label": "吐蕃帝國",
+      "region": "tibet",
+      "start_year": 618,
+      "end_year": 842,
+      "is_umbrella": false,
+      "aliases": [
+        "吐蕃"
+      ],
+      "source_note": "吐蕃赞普王朝历史系年（618–842年）"
+    },
+    {
+      "id": "PERIOD-TB-FRAGMENTATION",
+      "period_label": "吐蕃分裂時期",
+      "region": "tibet",
+      "start_year": 842,
+      "end_year": 1264,
+      "is_umbrella": false,
+      "aliases": [
+        "分裂時期"
+      ],
+      "source_note": "藏地通史历史分期（842–1264年，元朝萨迦派主政前）"
+    },
+    {
+      "id": "PERIOD-TB-SAKYA",
+      "period_label": "薩迦主政",
+      "region": "tibet",
+      "start_year": 1264,
+      "end_year": 1354,
+      "is_umbrella": false,
+      "aliases": [
+        "薩迦時期"
+      ],
+      "source_note": "萨迦派主政西藏历史分期（1264–1354年）"
+    },
+    {
+      "id": "PERIOD-TB-PHAGMODRUPA",
+      "period_label": "帕木竹巴主政",
+      "region": "tibet",
+      "start_year": 1354,
+      "end_year": 1613,
+      "is_umbrella": false,
+      "aliases": [
+        "帕竹政權"
+      ],
+      "source_note": "帕木竹巴政权主政西藏历史分期（1354–1613年）"
+    },
+    {
+      "id": "PERIOD-TB-GANDEN-PHODRANG",
+      "period_label": "甘丹頗章",
+      "region": "tibet",
+      "start_year": 1642,
+      "end_year": 1959,
+      "is_umbrella": false,
+      "aliases": [
+        "格魯派主政"
+      ],
+      "source_note": "甘丹颇章政权历史分期（1642–1959年）"
+    },
+    {
+      "id": "PERIOD-TH-SUKHOTHAI",
+      "period_label": "素可泰",
+      "region": "thailand",
+      "start_year": 1238,
+      "end_year": 1438,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "泰国历史系年（1238–1438年）"
+    },
+    {
+      "id": "PERIOD-TH-AYUTTHAYA",
+      "period_label": "阿瑜陀耶",
+      "region": "thailand",
+      "start_year": 1351,
+      "end_year": 1767,
+      "is_umbrella": false,
+      "aliases": [
+        "大城王國"
+      ],
+      "source_note": "泰国历史系年（1351–1767年）"
+    },
+    {
+      "id": "PERIOD-TH-THONBURI",
+      "period_label": "吞武里",
+      "region": "thailand",
+      "start_year": 1767,
+      "end_year": 1782,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "泰国历史系年（1767–1782年）"
+    },
+    {
+      "id": "PERIOD-TH-CHAKRI",
+      "period_label": "卻克里",
+      "region": "thailand",
+      "start_year": 1782,
+      "end_year": 2050,
+      "is_umbrella": false,
+      "aliases": [
+        "曼谷王朝",
+        "卻克里王朝"
+      ],
+      "source_note": "泰国拉玛王朝历史系年（1782年至今）"
+    },
+    {
+      "id": "PERIOD-MM-BAGAN",
+      "period_label": "蒲甘",
+      "region": "myanmar",
+      "start_year": 849,
+      "end_year": 1297,
+      "is_umbrella": false,
+      "aliases": [
+        "蒲甘王國"
+      ],
+      "source_note": "缅甸历史系年（849–1297年）"
+    },
+    {
+      "id": "PERIOD-MM-TAUNGOO",
+      "period_label": "東吁",
+      "region": "myanmar",
+      "start_year": 1510,
+      "end_year": 1752,
+      "is_umbrella": false,
+      "aliases": [
+        "東吁王朝"
+      ],
+      "source_note": "缅甸历史系年（1510–1752年）"
+    },
+    {
+      "id": "PERIOD-MM-KONBAUNG",
+      "period_label": "貢榜",
+      "region": "myanmar",
+      "start_year": 1752,
+      "end_year": 1885,
+      "is_umbrella": false,
+      "aliases": [
+        "貢榜王朝"
+      ],
+      "source_note": "缅甸历史系年（1752–1885年）"
+    },
+    {
+      "id": "PERIOD-MM-BRITISH",
+      "period_label": "英屬緬甸",
+      "region": "myanmar",
+      "start_year": 1885,
+      "end_year": 1948,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "缅甸殖民历史系年（1885–1948年）"
+    },
+    {
+      "id": "PERIOD-MM-MODERN",
+      "period_label": "現代緬甸",
+      "region": "myanmar",
+      "start_year": 1948,
+      "end_year": 2050,
+      "is_umbrella": false,
+      "aliases": [
+        "緬甸聯邦"
+      ],
+      "source_note": "现代缅甸历史系年（1948年至今）"
+    },
+    {
+      "id": "PERIOD-LK-ANURADHAPURA",
+      "period_label": "阿努拉德普勒",
+      "region": "sri_lanka",
+      "start_year": -377,
+      "end_year": 1017,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "斯里兰卡历史系年（前377–1017年）"
+    },
+    {
+      "id": "PERIOD-LK-POLONNARUWA",
+      "period_label": "波隆納魯沃",
+      "region": "sri_lanka",
+      "start_year": 1055,
+      "end_year": 1232,
+      "is_umbrella": false,
+      "aliases": [],
+      "source_note": "斯里兰卡历史系年（1055–1232年）"
+    },
+    {
+      "id": "PERIOD-LK-EARLY-MODERN",
+      "period_label": "斯里蘭卡近世",
+      "region": "sri_lanka",
+      "start_year": 1500,
+      "end_year": 1948,
+      "is_umbrella": false,
+      "aliases": [
+        "康提王國",
+        "英屬錫蘭"
+      ],
+      "source_note": "斯里兰卡近世与殖民历史系年（1500–1948年）"
+    },
+    {
+      "id": "PERIOD-LK-MODERN",
+      "period_label": "現代斯里蘭卡",
+      "region": "sri_lanka",
+      "start_year": 1948,
+      "end_year": 2050,
+      "is_umbrella": false,
+      "aliases": [
+        "斯里蘭卡"
+      ],
+      "source_note": "现代斯里兰卡历史系年（1948年至今）"
+    },
+    {
+      "id": "PERIOD-CA-ANCIENT",
+      "period_label": "西域古國",
+      "region": "central_asia",
+      "start_year": null,
+      "end_year": null,
+      "is_umbrella": true,
+      "aliases": [
+        "罽賓",
+        "安息",
+        "康居",
+        "月氏",
+        "龜茲",
+        "于闐",
+        "吐火羅"
+      ],
+      "source_note": "西域诸国与中亚古国历史泛称"
+    }
+  ]
+}
